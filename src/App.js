@@ -12,11 +12,12 @@ class App extends Component {
   render() {
     return (
       <Router>
+          basename={"/React-Portfolio"} 
         <div>
           <NavElement></NavElement>
           {/* <Route exact path="/" component = {}></Route> */}
           {/* < navElement />  */}
-
+        
           <Route exact path="/portfolio" component={CardDisplay}></Route>
           <Route exact path="/home" component={ShowBio}></Route>
           <Route exact path="/contact" component={ContactInfo}></Route>
