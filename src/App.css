@@ -1,0 +1,21 @@
+
+.navbar-brand {
+    background-color:rgb(137, 224, 220);
+    font-family: Anton, sans-serif;
+    font-family: PT Serif, serif;   
+}
+
+h1 {
+    color: rgb(137, 224, 220);
+    font-family: Anton, sans-serif;
+    font-family: PT Serif, serif; 
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+body {
+    color: rgb(71, 68, 68);
+   background-image:url(/storefrontsColorizedTextureBlue.jpg);
+}
