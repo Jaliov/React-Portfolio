@@ -16,7 +16,7 @@ function CardDisplay () {
     </Col>
 <Col xs={8} md={4}>
 <Card style={{ width: '18rem', height: '20rem' }}>
-  <Card.Img variant="top" img src="/images/Code_QuizImage.jpg" />
+  <Card.Img variant="top" img src="https://github.com/Jaliov/React-Portfolio/blob/master/public/images/Code_QuizImage.jpg" />
   <Card.Body>
     <Card.Title>Survey Form</Card.Title>
     <Card.Text></Card.Text>
@@ -27,7 +27,7 @@ function CardDisplay () {
 </Col>
 <Col xs={8} md={4}>
 <Card style={{ width: '18rem', height: '20rem' }}>
-  <Card.Img variant="top" img src="/images/WeatherAppImage.jpg"  />
+  <Card.Img variant="top" img src="https://github.com/Jaliov/React-Portfolio/blob/master/public/images/WeatherAppImage.jpg"  />
   <Card.Body>
     <Card.Title>Weather App</Card.Title>
     <Card.Text>
@@ -46,19 +46,19 @@ function CardDisplay () {
     </Col>
 <Col xs={8} md={4}>
 <Card style={{ width: '18rem', height: '20rem' }}>
-  <Card.Img variant="top" img src="/images/WorkdayScheduler.jpg" />
+  <Card.Img variant="top" img src="https://github.com/Jaliov/React-Portfolio/blob/master/public/images/WorkdayScheduler.jpg" />
   <Card.Body>
     <Card.Title>Workday Scheduler</Card.Title>
     <Card.Text></Card.Text>
-    <Button variant="secondary" href="https://jaliov.github.io/Code-Quiz/">Workday <br /> Scheduler</Button>
-    <Card.Link href="https://github.com/Jaliov/Code-Quiz">github Repo</Card.Link>
+    <Button variant="secondary" href="https://jaliov.github.io/Word-Day-Scheduler/">Workday <br /> Scheduler</Button>
+    <Card.Link href="https://github.com/Jaliov/Word-Day-Scheduler">github Repo</Card.Link>
   </Card.Body>
 </Card>
 </Col>
 
 <Col xs={8} md={4}>
 <Card style={{ width: '18rem', height: '20rem' }}>
-  <Card.Img variant="top" img src="/images/PasswordGenImage.jpg"  />
+  <Card.Img variant="top" img src="https://github.com/Jaliov/React-Portfolio/blob/master/public/images/PasswordGenImage.jpg"  />
   <Card.Body>
     <Card.Title>Password Generator</Card.Title>
     <Card.Text>
@@ -77,7 +77,7 @@ function CardDisplay () {
     </Col>
 <Col xs={8} md={4}>
 <Card style={{ width: '18rem', height: '20rem' }}>
-  <Card.Img variant="top" img src="images/SurveyFormImage.jpg" />
+  <Card.Img variant="top" img src="https://github.com/Jaliov/React-Portfolio/blob/master/public/images/SurveyFormImage.jpg" />
   <Card.Body>
     <Card.Title>Martial Arts Survey Form</Card.Title>
     <Card.Text></Card.Text>
@@ -89,7 +89,7 @@ function CardDisplay () {
 
 <Col xs={8} md={4}>
 <Card style={{ width: '18rem', height: '20rem' }}>
-  <Card.Img variant="top" img src="images/HipGrandpaImage.jpg"  />
+  <Card.Img variant="top" img src="https://github.com/Jaliov/React-Portfolio/blob/master/public/images/HipGrandpaImage.jpg"  />
   <Card.Body>
     <Card.Title>Hip Grandpa</Card.Title>
     <Card.Text>
@@ -109,7 +109,7 @@ function CardDisplay () {
     </Col>
 <Col xs={8} md={4}>
 <Card style={{ width: '18rem', height: '23rem' }}>
-  <Card.Img variant="top" img src="images/fanPageImage.jpg" />
+  <Card.Img variant="top" img src="https://github.com/Jaliov/React-Portfolio/blob/master/public/images/fanPageImage.jpg" />
   <Card.Body>
     <Card.Title>Violinist Fan Page!</Card.Title>
     <Card.Text></Card.Text>
@@ -121,7 +121,7 @@ function CardDisplay () {
 
 <Col xs={8} md={4}>
 <Card style={{ width: '18rem', height: '23rem' }}>
-  <Card.Img variant="top" img src="images/FlipcardsImage.jpg"  />
+  <Card.Img variant="top" img src="https://github.com/Jaliov/React-Portfolio/blob/master/public/images/FlipcardsImage.jpg"  />
   <Card.Body>
     <Card.Title>FlipCards</Card.Title>
     <Card.Text>
