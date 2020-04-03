@@ -1,5 +1,5 @@
 import React from "react";
-import JoelImage from './JoelatBarron_2016cropped.jpg';
+import JoelImage from './images/JoelatBarron_2016cropped.jpg';
 
 
 function ShowBio() 

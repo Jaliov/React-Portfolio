@@ -4,6 +4,14 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import CodeQuizImg from './images/Code_QuizImage.jpg';
+import HmanImage from './images/fanPageImage.jpg'
+import FlipCardsImg from './images/FlipcardsImage.jpg'
+import WeatherAppImg from './images/WeatherAppImage.jpg'
+import HipGrandpaImg from './images/HipGrandpaImage.jpg'
+import PasswordImg from './images/PasswordGenImage.jpg'
+import SurveyFormImg from './images/SurveyFormImage.jpg'
+import WorkdaySchl from './images/WorkdayScheduler.jpg'
 
 
 function CardDisplay () { 
@@ -16,7 +24,7 @@ function CardDisplay () {
     </Col>
 <Col xs={8} md={4}>
 <Card style={{ width: '18rem', height: '20rem' }}>
-  <Card.Img variant="top" img src="https://github.com/Jaliov/React-Portfolio/blob/master/public/images/Code_QuizImage.jpg" />
+  <Card.Img variant="top" img src={CodeQuizImg} />
   <Card.Body>
     <Card.Title>Survey Form</Card.Title>
     <Card.Text></Card.Text>
@@ -27,7 +35,7 @@ function CardDisplay () {
 </Col>
 <Col xs={8} md={4}>
 <Card style={{ width: '18rem', height: '20rem' }}>
-  <Card.Img variant="top" img src="https://github.com/Jaliov/React-Portfolio/blob/master/public/images/WeatherAppImage.jpg"  />
+  <Card.Img variant="top" img src={WeatherAppImg}  />
   <Card.Body>
     <Card.Title>Weather App</Card.Title>
     <Card.Text>
@@ -46,25 +54,25 @@ function CardDisplay () {
     </Col>
 <Col xs={8} md={4}>
 <Card style={{ width: '18rem', height: '20rem' }}>
-  <Card.Img variant="top" img src="https://github.com/Jaliov/React-Portfolio/blob/master/public/images/WorkdayScheduler.jpg" />
+<Card.Img variant="top" img src={WorkdaySchl} />
   <Card.Body>
     <Card.Title>Workday Scheduler</Card.Title>
     <Card.Text></Card.Text>
     <Button variant="secondary" href="https://jaliov.github.io/Word-Day-Scheduler/">Workday <br /> Scheduler</Button>
-    <Card.Link href="https://github.com/Jaliov/Word-Day-Scheduler">github Repo</Card.Link>
+    <Card.Link href="https://github.com/Jaliov/Word-Day-Scheduler"> github Repo</Card.Link>
   </Card.Body>
 </Card>
 </Col>
 
 <Col xs={8} md={4}>
 <Card style={{ width: '18rem', height: '20rem' }}>
-  <Card.Img variant="top" img src="https://github.com/Jaliov/React-Portfolio/blob/master/public/images/PasswordGenImage.jpg"  />
+  <Card.Img variant="top" img src={PasswordImg}  />
   <Card.Body>
     <Card.Title>Password Generator</Card.Title>
     <Card.Text>
     </Card.Text>
     <Button variant="secondary" href="https://jaliov.github.io/Password-Generator">Password <br />Generator</Button>
-    <Card.Link href="https://github.com/Jaliov/Password-Generator">github Repo</Card.Link>
+    <Card.Link href="https://github.com/Jaliov/Password-Generator"> github Repo</Card.Link>
   
   </Card.Body>
 </Card>
@@ -77,26 +85,26 @@ function CardDisplay () {
     </Col>
 <Col xs={8} md={4}>
 <Card style={{ width: '18rem', height: '20rem' }}>
-  <Card.Img variant="top" img src="https://github.com/Jaliov/React-Portfolio/blob/master/public/images/SurveyFormImage.jpg" />
+  <Card.Img variant="top" img src={SurveyFormImg} />
   <Card.Body>
     <Card.Title>Martial Arts Survey Form</Card.Title>
     <Card.Text></Card.Text>
     <Button variant="secondary" href="https://jaliov.github.io/Survey-Form/">Survey Form</Button>
-    <Card.Link href="https://github.com/Jaliov/Survey-Form">github Repo</Card.Link>
+    <Card.Link href="https://github.com/Jaliov/Survey-Form"> github Repo</Card.Link>
   </Card.Body>
 </Card>
 </Col>
 
 <Col xs={8} md={4}>
 <Card style={{ width: '18rem', height: '20rem' }}>
-  <Card.Img variant="top" img src="https://github.com/Jaliov/React-Portfolio/blob/master/public/images/HipGrandpaImage.jpg"  />
+  <Card.Img variant="top" img src={HipGrandpaImg} />
   <Card.Body>
     <Card.Title>Hip Grandpa</Card.Title>
     <Card.Text>
       Team project
     </Card.Text>
     <Button variant="secondary" href="https://jaliov.github.io/hipGrandpa/">HipGrandpa</Button>
-    <Card.Link href="https://github.com/Jaliov/hipGrandpa">github Repo</Card.Link>
+    <Card.Link href="https://github.com/Jaliov/hipGrandpa"> github Repo</Card.Link>
   
   </Card.Body>
 </Card>
@@ -109,7 +117,7 @@ function CardDisplay () {
     </Col>
 <Col xs={8} md={4}>
 <Card style={{ width: '18rem', height: '23rem' }}>
-  <Card.Img variant="top" img src="https://github.com/Jaliov/React-Portfolio/blob/master/public/images/fanPageImage.jpg" />
+  <Card.Img variant="top" img src={HmanImage} />
   <Card.Body>
     <Card.Title>Violinist Fan Page!</Card.Title>
     <Card.Text></Card.Text>
@@ -121,7 +129,7 @@ function CardDisplay () {
 
 <Col xs={8} md={4}>
 <Card style={{ width: '18rem', height: '23rem' }}>
-  <Card.Img variant="top" img src="https://github.com/Jaliov/React-Portfolio/blob/master/public/images/FlipcardsImage.jpg"  />
+  <Card.Img variant="top" img src={FlipCardsImg}  />
   <Card.Body>
     <Card.Title>FlipCards</Card.Title>
     <Card.Text>
@@ -138,4 +146,4 @@ function CardDisplay () {
 )
     }
 
-export default CardDisplay; 
+    export default CardDisplay

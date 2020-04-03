@@ -17,5 +17,6 @@ h1 {
 
 body {
     color: rgb(71, 68, 68);
-   background-image:url('https://github.com/Jaliov/React-Portfolio/blob/master/public/storefrontsColorizedTextureBlue.jpg');
+  /* background-image:url('https://github.com/Jaliov/React-Portfolio/blob/master/public/storefrontsColorizedTextureBlue.jpg');*/
+   background-image:url('storefrontsColorizedTextureBlue.jpg');
 }
