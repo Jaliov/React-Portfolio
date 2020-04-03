@@ -1,7 +1,16 @@
 {
-  "main.css": "static/css/main.a0fe57b0.css",
-  "main.css.map": "static/css/main.a0fe57b0.css.map",
-  "main.js": "static/js/main.b07a02df.js",
-  "main.js.map": "static/js/main.b07a02df.js.map",
-  "static\\media\\JoelatBarron_2016cropped.jpg": "static/media/JoelatBarron_2016cropped.79c32a3a.jpg"
+  "main.css": "static/css/main.3fc764f3.css",
+  "main.css.map": "static/css/main.3fc764f3.css.map",
+  "main.js": "static/js/main.6069f46e.js",
+  "main.js.map": "static/js/main.6069f46e.js.map",
+  "static\\media\\Code_QuizImage.jpg": "static/media/Code_QuizImage.f2606fae.jpg",
+  "static\\media\\FlipcardsImage.jpg": "static/media/FlipcardsImage.3fafa777.jpg",
+  "static\\media\\HipGrandpaImage.jpg": "static/media/HipGrandpaImage.f6b162c9.jpg",
+  "static\\media\\JoelatBarron_2016cropped.jpg": "static/media/JoelatBarron_2016cropped.79c32a3a.jpg",
+  "static\\media\\PasswordGenImage.jpg": "static/media/PasswordGenImage.a7e63dee.jpg",
+  "static\\media\\SurveyFormImage.jpg": "static/media/SurveyFormImage.37c70dcc.jpg",
+  "static\\media\\WeatherAppImage.jpg": "static/media/WeatherAppImage.b0bd08a2.jpg",
+  "static\\media\\WorkdayScheduler.jpg": "static/media/WorkdayScheduler.2058d6b7.jpg",
+  "static\\media\\fanPageImage.jpg": "static/media/fanPageImage.adb0ef64.jpg",
+  "static\\media\\storefrontsColorizedTextureBlue.jpg": "static/media/storefrontsColorizedTextureBlue.84ae8c5a.jpg"
 }
