@@ -29,7 +29,7 @@ function CardDisplay () {
     <Card.Title>Survey Form</Card.Title>
     <Card.Text></Card.Text>
     <Button variant="secondary" href="https://jaliov.github.io/Code-Quiz/">Survey Form</Button>
-    <Card.Link href="https://github.com/Jaliov/Code-Quiz">github Repo</Card.Link>
+    <Card.Link href="https://github.com/Jaliov/Code-Quiz"> github Repo</Card.Link>
   </Card.Body>
 </Card>
 </Col>
@@ -41,7 +41,7 @@ function CardDisplay () {
     <Card.Text>
     </Card.Text>
     <Button variant="secondary" href="https://jaliov.github.io/Weather-Map/">Weather App</Button>
-    <Card.Link href="https://github.com/Jaliov/Weather-Map">github Repo</Card.Link>
+    <Card.Link href="https://github.com/Jaliov/Weather-Map"> github Repo</Card.Link>
   
   </Card.Body>
 </Card>
