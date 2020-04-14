@@ -17,7 +17,7 @@ function ShowBio()
   
           <img className="d-inline p-2 float-left" src={JoelImage} height="200" width="150" alt="Joel Rudin Portrait"/>
   
-          <p className="y-3">Joel Rudin is a professional musician who also creates websites, does graphic design and makes art.  </p>
+          <p className="y-3">Joel Rudin is a professional musician who also creates websites, does graphic design and makes art. <br />He holds a certificate from the <strong>Rutgers Full Stack Flex Program</strong>, April, 2020</p>
         </div>
         
       </div>

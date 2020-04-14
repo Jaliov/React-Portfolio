@@ -12,6 +12,8 @@ import HipGrandpaImg from './images/HipGrandpaImage.jpg'
 import PasswordImg from './images/PasswordGenImage.jpg'
 import SurveyFormImg from './images/SurveyFormImage.jpg'
 import WorkdaySchl from './images/WorkdayScheduler.jpg'
+import FlamencoSiteImg from './images/LisabflamencoScreenshot.jpg'
+import YellowChatImg from './images/yellowChatScreenshot.jpg'
 
 
 function CardDisplay () { 
@@ -28,8 +30,8 @@ function CardDisplay () {
   <Card.Body>
     <Card.Title>Survey Form</Card.Title>
     <Card.Text></Card.Text>
-    <Button variant="secondary" href="https://jaliov.github.io/Code-Quiz/">Survey Form</Button>
-    <Card.Link href="https://github.com/Jaliov/Code-Quiz">github Repo</Card.Link>
+  <a href="https://jaliov.github.io/Code-Quiz/" target="blank"><Button variant="secondary " >Survey Form</Button></a>
+    <Card.Link href="https://github.com/Jaliov/Code-Quiz"> github Repo</Card.Link>
   </Card.Body>
 </Card>
 </Col>
@@ -41,7 +43,7 @@ function CardDisplay () {
     <Card.Text>
     </Card.Text>
     <Button variant="secondary" href="https://jaliov.github.io/Weather-Map/">Weather App</Button>
-    <Card.Link href="https://github.com/Jaliov/Weather-Map">github Repo</Card.Link>
+    <Card.Link href="https://github.com/Jaliov/Weather-Map"> github Repo</Card.Link>
   
   </Card.Body>
 </Card>
@@ -137,6 +139,38 @@ function CardDisplay () {
     </Card.Text>
     <Button variant="secondary" href="http://flipcards2020.herokuapp.com/">FlipCards</Button>
     <Card.Link href="https://github.com/Jaliov/flipcards"> github Repo</Card.Link>
+  
+  </Card.Body>
+</Card>
+</Col>
+</Row>
+
+<Row>
+        <Col  md={2}>
+ 
+    </Col>
+<Col xs={8} md={4}>
+<Card style={{ width: '18rem', height: '23rem' }}>
+  <Card.Img variant="top" img src={FlamencoSiteImg} />
+  <Card.Body>
+    <Card.Title>Lisa Botalico Flamenco!</Card.Title>
+    <Card.Text></Card.Text>
+    <Button variant="secondary" href="www.lisabflamenco.com/index.html">Flamenco</Button>
+    <Card.Link href="https://jhttps://github.com/Jaliov/lisabflamenco"> github Repo</Card.Link>
+  </Card.Body>
+</Card>
+</Col>
+
+<Col xs={8} md={4}>
+<Card style={{ width: '18rem', height: '23rem' }}>
+  <Card.Img variant="top" img src={YellowChatImg}  />
+  <Card.Body>
+    <Card.Title>YELLOWChat</Card.Title>
+    <Card.Text>
+      Team project
+    </Card.Text>
+    <Button variant="secondary" href="https://powerful-mesa-31585.herokuapp.com/">YELLOWchat</Button>
+    <Card.Link href="https://github.com/Jaliov/yellow-chat"> github Repo</Card.Link>
   
   </Card.Body>
 </Card>
