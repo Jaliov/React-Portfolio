@@ -147,16 +147,15 @@ function CardDisplay () {
 
 <Row>
         <Col  md={2}>
- 
     </Col>
 <Col xs={8} md={4}>
 <Card style={{ width: '18rem', height: '23rem' }}>
   <Card.Img variant="top" img src={FlamencoSiteImg} />
   <Card.Body>
     <Card.Title>Lisa Botalico Flamenco!</Card.Title>
-    <Card.Text></Card.Text>
-    <Button variant="secondary" href="www.lisabflamenco.com/index.html">Flamenco</Button>
-    <Card.Link href="https://jhttps://github.com/Jaliov/lisabflamenco"> github Repo</Card.Link>
+    {/* <Card.Text>Published at www.lisabflamenco.com</Card.Text> */}
+    <Button variant="secondary" href="https://jaliov.github.io/lisabflamenco/">Flamenco</Button>
+    <Card.Link href="https://github.com/Jaliov/lisabflamenco"> github Repo</Card.Link>
   </Card.Body>
 </Card>
 </Col>

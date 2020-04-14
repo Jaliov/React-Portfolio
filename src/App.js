@@ -16,11 +16,12 @@ class App extends Component {
           <NavElement></NavElement>
          
           {/* < navElement />  */}
-        
+          <Route path={process.env.PUBLIC_URL + '/'}></Route>
           <Route exact path="/portfolio" component={CardDisplay}></Route>
           <Route exact path="/home" component={ShowBio}></Route>
           <Route exact path="/contact" component={ContactInfo}></Route>
         </div>
+      
       </Router>
     );
   }
