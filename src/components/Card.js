@@ -30,7 +30,7 @@ function CardDisplay () {
   <Card.Body>
     <Card.Title>Survey Form</Card.Title>
     <Card.Text></Card.Text>
-  <a href="https://jaliov.github.io/Code-Quiz/" target="blank"><Button variant="secondary " >Survey Form</Button></a>
+    <Button variant="secondary" href="https://jaliov.github.io/Code-Quiz/" target="blank">Survey Form</Button>
     <Card.Link href="https://github.com/Jaliov/Code-Quiz"> github Repo</Card.Link>
   </Card.Body>
 </Card>
