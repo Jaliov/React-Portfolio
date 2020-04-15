@@ -30,7 +30,7 @@ function CardDisplay () {
   <Card.Body>
     <Card.Title>Survey Form</Card.Title>
     <Card.Text></Card.Text>
-    <Button variant="secondary" href="https://jaliov.github.io/Code-Quiz/" target="blank">Survey Form</Button>
+    <Button variant="secondary" href= "https://jaliov.github.io/Code-Quiz/" target="blank">Survey Form</Button>
     <Card.Link href="https://github.com/Jaliov/Code-Quiz"> github Repo</Card.Link>
   </Card.Body>
 </Card>
@@ -42,7 +42,8 @@ function CardDisplay () {
     <Card.Title>Weather App</Card.Title>
     <Card.Text>
     </Card.Text>
-    <Button variant="secondary" href="https://jaliov.github.io/Weather-Map/">Weather App</Button>
+    
+    <Button variant="secondary" href="https://jaliov.github.io/Weather-Map/" target="blank">Weather App</Button>
     <Card.Link href="https://github.com/Jaliov/Weather-Map"> github Repo</Card.Link>
   
   </Card.Body>
@@ -60,7 +61,7 @@ function CardDisplay () {
   <Card.Body>
     <Card.Title>Workday Scheduler</Card.Title>
     <Card.Text></Card.Text>
-    <Button variant="secondary" href="https://jaliov.github.io/Word-Day-Scheduler/">Workday <br /> Scheduler</Button>
+    <Button variant="secondary" href="https://jaliov.github.io/Word-Day-Scheduler/" target="blank">Workday <br /> Scheduler</Button>
     <Card.Link href="https://github.com/Jaliov/Word-Day-Scheduler"> github Repo</Card.Link>
   </Card.Body>
 </Card>
@@ -73,7 +74,7 @@ function CardDisplay () {
     <Card.Title>Password Generator</Card.Title>
     <Card.Text>
     </Card.Text>
-    <Button variant="secondary" href="https://jaliov.github.io/Password-Generator">Password <br />Generator</Button>
+    <Button variant="secondary" href="https://jaliov.github.io/Password-Generator" target="blank">Password <br />Generator</Button>
     <Card.Link href="https://github.com/Jaliov/Password-Generator"> github Repo</Card.Link>
   
   </Card.Body>
@@ -91,7 +92,7 @@ function CardDisplay () {
   <Card.Body>
     <Card.Title>Martial Arts Survey Form</Card.Title>
     <Card.Text></Card.Text>
-    <Button variant="secondary" href="https://jaliov.github.io/Survey-Form/">Survey Form</Button>
+    <Button variant="secondary" href="https://jaliov.github.io/Survey-Form/" target="blank">Survey Form</Button>
     <Card.Link href="https://github.com/Jaliov/Survey-Form"> github Repo</Card.Link>
   </Card.Body>
 </Card>
@@ -105,7 +106,7 @@ function CardDisplay () {
     <Card.Text>
       Team project
     </Card.Text>
-    <Button variant="secondary" href="https://jaliov.github.io/hipGrandpa/">HipGrandpa</Button>
+    <Button variant="secondary" href="https://jaliov.github.io/hipGrandpa/" target="blank">HipGrandpa</Button>
     <Card.Link href="https://github.com/Jaliov/hipGrandpa"> github Repo</Card.Link>
   
   </Card.Body>
@@ -123,7 +124,7 @@ function CardDisplay () {
   <Card.Body>
     <Card.Title>Violinist Fan Page!</Card.Title>
     <Card.Text></Card.Text>
-    <Button variant="secondary" href="https://jaliov.github.io/violinist-fanPage/">Fan Page</Button>
+    <Button variant="secondary" href="https://jaliov.github.io/violinist-fanPage/" target="blank">Fan Page</Button>
     <Card.Link href="https://jaliov.github.io/violinist-fanPage/"> github Repo</Card.Link>
   </Card.Body>
 </Card>
@@ -137,7 +138,7 @@ function CardDisplay () {
     <Card.Text>
       Team project
     </Card.Text>
-    <Button variant="secondary" href="http://flipcards2020.herokuapp.com/">FlipCards</Button>
+    <Button variant="secondary" href="http://flipcards2020.herokuapp.com/" target="blank">FlipCards</Button>
     <Card.Link href="https://github.com/Jaliov/flipcards"> github Repo</Card.Link>
   
   </Card.Body>
@@ -154,7 +155,7 @@ function CardDisplay () {
   <Card.Body>
     <Card.Title>Lisa Botalico Flamenco!</Card.Title>
     {/* <Card.Text>Published at www.lisabflamenco.com</Card.Text> */}
-    <Button variant="secondary" href="https://jaliov.github.io/lisabflamenco/">Flamenco</Button>
+    <Button variant="secondary" href="https://jaliov.github.io/lisabflamenco/" target="blank">Flamenco</Button>
     <Card.Link href="https://github.com/Jaliov/lisabflamenco"> github Repo</Card.Link>
   </Card.Body>
 </Card>
@@ -168,7 +169,7 @@ function CardDisplay () {
     <Card.Text>
       Team project
     </Card.Text>
-    <Button variant="secondary" href="https://powerful-mesa-31585.herokuapp.com/">YELLOWchat</Button>
+    <Button variant="secondary" href="https://powerful-mesa-31585.herokuapp.com/" target="blank">YELLOWchat</Button>
     <Card.Link href="https://github.com/Jaliov/yellow-chat"> github Repo</Card.Link>
   
   </Card.Body>
