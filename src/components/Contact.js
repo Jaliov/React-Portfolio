@@ -14,7 +14,7 @@ import Col from 'react-bootstrap/Col';
 function ContactInfo() {
   return (
     <body>
-      <Container fluid>
+      <Container>
         <Jumbotron>
           <h1 >Contact</h1>
           <hr></hr>
