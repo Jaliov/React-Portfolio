@@ -461,17 +461,20 @@ function CardDisplay() {
           >
             <Card.Img variant="top" src={HmanImage} />
             <Card.Body>
-              <Card.Title>Violinist Fan Page!</Card.Title>
+              <Card.Title>React Violinist Fan Page!</Card.Title>
               <Card.Text>
-                 Jascha Heifetz is universally considereed the greatest violinist that ever lived, so I made fan page about him! This is a combination of a freeCodeCamp projet online and a pre-work assignment for Rutgers bootcamp with some enhancements. It was built with HTML and CSS only (Who needs frameworks!), contains a YouTube link and is responsive. 
+                 Jascha Heifetz is universally considereed the greatest violinist that ever lived, so I made fan page about him! This is an updated React version of a combo freeCodeCamp project pre-work assignment for Rutgers bootcamp.
               </Card.Text>
               <ListGroup>
                 <ListGroup.Item variant="dark">Built with: </ListGroup.Item>
                 <ListGroup.Item variant="light">
                   <ul>
-                    <li>HTML</li>
+
+                    <li>REACT</li>
+                    <li>Node</li>
+                    <li>JavaScript</li>
                     <li>CSS</li>
-                  
+
                   </ul>
                 </ListGroup.Item>
                 <ListGroupItem>Links:</ListGroupItem>
@@ -480,7 +483,7 @@ function CardDisplay() {
             <Card.Body>
               <Button
                 variant="danger"
-                href="https://jaliov.github.io/violinist-fanPage/"
+                href="https://jaliov.github.io/react-heifetz/"
                 target="blank"
                 text="light"
               >
@@ -488,8 +491,7 @@ function CardDisplay() {
               </Button>
               <Button
                 variant="info"
-                href="https://jaliov.github.io/violinist-fanPage/">
-              >
+                href="https://github.com/Jaliov/react-heifetz">
                 github
               </Button>
             </Card.Body>
@@ -533,7 +535,7 @@ function CardDisplay() {
                     </ul>
     
                 </ListGroup.Item>
-                <ListGroupItem>Links:</ListGroupItem>
+                {/* <ListGroupItem>Links:</ListGroupItem> */}
               </ListGroup>
             </Card.Body>
             <Card.Body>

@@ -8,7 +8,7 @@ const ShowPortfolio = (
     
         (
             <div>
-            {/* <div> { NavElement } </div> */}
+           <div> { NavElement } </div> 
             <div> { CardDisplay } </div>
             </div>
           )           

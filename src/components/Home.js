@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ShowBio from "./Bio"
+// import ShowBio from "./Bio";
+ 
 
 
-function NavElement () { 
+ function NavElement () { 
   return (  
    <body>
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -25,12 +26,11 @@ function NavElement () {
             </div>
        
       </div>
-
+     
   </nav>
-  <div>  { ShowBio } </div>
+ 
   </body>
   )  
   }
   
-
-export default NavElement
+  export default NavElement
