@@ -1,6 +1,6 @@
 # Joel Rudin React-Portfolio
 
-## A collection of web projects utilizing both frontend and backend technologies and demonstrating my design approach
+## A collection of web projects utilizing both frontend and backend technologies and demonstrating some of my design concepts
 
 ![](React-PortfolioScrnShot.jpg)
 
