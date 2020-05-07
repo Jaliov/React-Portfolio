@@ -2,7 +2,7 @@ import React from "react";
 import JoelImage from "./images/JoelatBarron_2016cropped.jpg";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
-import Home from "./Home";
+// import Home from "./Home";
 
 function ShowBio() {
   return (

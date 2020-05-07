@@ -7,7 +7,7 @@ import Bio from "./components/Bio";
 
 import ContactInfo from "./components/Contact";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavElement from "./components/Home";
 import "./App.css";
 
