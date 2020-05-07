@@ -27,4 +27,4 @@
 - YELLOWChat 
 
 ## Deployment: 
-### https://jaliov.github.io/home
+### https://jaliov.github.io/React-Portfolio/

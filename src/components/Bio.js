@@ -2,15 +2,13 @@ import React from "react";
 import JoelImage from "./images/JoelatBarron_2016cropped.jpg";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
-// import NavElement from "./Home"
+import Home from "./Home";
 
 function ShowBio() {
   return (
     <React.Fragment>
       <div className="container mt-3">
         <div className="row">
-          {/* <div className="col-md-12" > */}
-          {/* <div className="page-header" > */}
           <Card>
             <Card.Body>
               <ListGroup variant="flush">
