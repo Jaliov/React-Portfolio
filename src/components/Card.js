@@ -76,7 +76,7 @@ function CardDisplay() {
                 Viola Quiz!
               </Button>
               <Button variant="info" href="https://github.com/Jaliov/Code-Quiz">
-                github
+               GitHub
               </Button>
             </Card.Body>
             <Card.Footer>
@@ -136,7 +136,7 @@ function CardDisplay() {
                 variant="info"
                 href="https://github.com/Jaliov/Weather-Map"
               >
-                github
+                 GitHub
               </Button>
             </Card.Body>
             <Card.Footer>
@@ -199,7 +199,7 @@ function CardDisplay() {
                 variant="info"
                 href="https://github.com/Jaliov/Word-Day-Scheduler"
               >
-                github
+                 GitHub
               </Button>
             </Card.Body>
             <Card.Footer>
@@ -260,7 +260,7 @@ function CardDisplay() {
                 Viola Quiz!
               </Button>
               <Button variant="info" href="https://github.com/Jaliov/flipcards">
-                github
+               GitHub
               </Button>
             </Card.Body>
             <Card.Footer>
@@ -318,7 +318,7 @@ function CardDisplay() {
                 variant="info"
                 href="https://github.com/Jaliov/lisabflamenco"
               >
-                github
+                 GitHub
               </Button>
             </Card.Body>
             <Card.Footer>
@@ -381,7 +381,7 @@ function CardDisplay() {
                 variant="info"
                 href="https://github.com/Jaliov/Burger-Logger"
               >
-                github
+                 GitHub
               </Button>
             </Card.Body>
             <Card.Footer>
@@ -441,7 +441,7 @@ function CardDisplay() {
                 variant="info"
                 href="https://github.com/Jaliov/hipGrandpa"
               >
-                github
+                 GitHub
               </Button>
             </Card.Body>
             {/* <Card.Footer>
@@ -492,7 +492,7 @@ function CardDisplay() {
               <Button
                 variant="info"
                 href="https://github.com/Jaliov/react-heifetz">
-                github
+                 GitHub
               </Button>
             </Card.Body>
             {/* <Card.Footer>
@@ -551,7 +551,7 @@ function CardDisplay() {
                 variant="info"
                 href="https://github.com/Jaliov/yellow-chat"
               >
-                github
+                 GitHub
               </Button>
             </Card.Body>
             {/* <Card.Footer>

@@ -9,7 +9,7 @@
 - React
 - JavaScript
 - Node.js
-- Bootstrap
+- React Bootstrap
 - CSS 
 - Photoshop
 
