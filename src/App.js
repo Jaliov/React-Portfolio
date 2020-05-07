@@ -14,7 +14,7 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <Router basename = "./React-Router">
+      <Router basename = "./React-Portfolio">
         <div>
           <NavElement></NavElement>
 
