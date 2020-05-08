@@ -10,7 +10,7 @@ import Col from "react-bootstrap/Col";
 
 function ContactInfo() {
   return (
-    <body>
+   <React.Fragment>
       <Container>
         <Jumbotron style={{ marginTop: "20px" }}>
           <h1>Contact</h1>
@@ -54,7 +54,7 @@ function ContactInfo() {
           </Card.Body>
         </Jumbotron>
       </Container>
-    </body>
+      </React.Fragment>
   );
 }
 

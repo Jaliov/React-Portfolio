@@ -14,15 +14,15 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      
-      <Router basename = "./React-Portfolio">
+   
+      <Router>
        
        <div>
           <NavElement />
           <Switch>
-          <Route exact path="/" component={ShowBio}></Route>
+            <Route exact path="/" component={Bio}></Route>  
           
-          <Route exact path="/home" component={Bio}></Route>
+           <Route exact path="/home" component={ShowBio}></Route>  
 
           <Route exact path="/portfolio" component={CardDisplay}></Route>
 

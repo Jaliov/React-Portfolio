@@ -26,7 +26,7 @@ function CardDisplay() {
     
       <Row>
         <h1
-          class="bg-light"
+          className="bg-light"
           style={{ fontWeight: "bold", marginTop: "30px", padding: "10px" }}
         >
           Portfolio

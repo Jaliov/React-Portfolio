@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { BrowserRouter as Router, Route} from "react-router-dom";
+import Bio from "./Bio"
 function NavElement() {
   return (
-    <body>
+     <React.Fragment>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="col-md-8">
           <a className="navbar-brand text-white text-center font-weight-bold p-2">
@@ -36,7 +37,10 @@ function NavElement() {
           </div>
         </div>
       </nav>
-    </body>
+      <Router>
+      <Route exact path="/home" component={Bio}></Route>
+      </Router>
+      </React.Fragment>
   );
 }
 
