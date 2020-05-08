@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { BrowserRouter as Router, Route} from "react-router-dom";
-import Bio from "./Bio"
+// import { BrowserRouter as Router, Route} from "react-router-dom";
+// import Bio from "./Bio"
 function NavElement() {
   return (
      <React.Fragment>
@@ -37,9 +37,7 @@ function NavElement() {
           </div>
         </div>
       </nav>
-      <Router>
-      <Route exact path="/home" component={Bio}></Route>
-      </Router>
+   
       </React.Fragment>
   );
 }
