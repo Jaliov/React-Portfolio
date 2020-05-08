@@ -7,7 +7,7 @@ import Bio from "./components/Bio";
 
 import ContactInfo from "./components/Contact";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Route} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import NavElement from "./components/Home";
 import "./App.css";
 
@@ -17,9 +17,9 @@ class App extends Component {
       
       <Router basename = "./React-Portfolio">
        
-        <div>
-          <NavElement></NavElement>
-          
+       <React.Fragment>
+          <NavElement />
+          <Switch>
           <Route exact path="/home" component={Bio}></Route>
 
           <Route exact path="/portfolio" component={CardDisplay}></Route>
@@ -27,8 +27,8 @@ class App extends Component {
           <Route exact path="/contact" component={ContactInfo}></Route>
 
           <Route exact path="/" component={ShowBio}></Route>
-        
-        </div>
+          </Switch>
+          </React.Fragment>
 
       </Router>
      
