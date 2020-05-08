@@ -25,7 +25,7 @@ function NavElement() {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
             <Link className="nav-item nav-link active" to="/home">
-              Home<span className="sr-only">(current)</span>
+              Home
             </Link>
             <Link className="nav-item nav-link" to="/portfolio">
               Portfolio
