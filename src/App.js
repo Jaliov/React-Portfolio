@@ -17,18 +17,19 @@ class App extends Component {
       
       <Router basename = "./React-Portfolio">
        
-       <React.Fragment>
+       <div>
           <NavElement />
           <Switch>
+          <Route exact path="/" component={ShowBio}></Route>
+          
           <Route exact path="/home" component={Bio}></Route>
 
           <Route exact path="/portfolio" component={CardDisplay}></Route>
 
           <Route exact path="/contact" component={ContactInfo}></Route>
 
-          <Route exact path="/" component={ShowBio}></Route>
           </Switch>
-          </React.Fragment>
+          </div>
 
       </Router>
      
