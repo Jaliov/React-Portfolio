@@ -7,7 +7,7 @@ import CardDisplay from "./components/Card";
 
 import ContactInfo from "./components/Contact";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import { BrowserRouter as Router, Route} from "react-router-dom";
 import NavElement from "./components/NavBar";
 import "./App.css";
 
@@ -15,18 +15,18 @@ class App extends Component {
   render() {
     return (
    
-      <Router>
+      <Router basename={`${process.env.PUBLIC_URL}/`}>
        
        <div>
           <NavElement />
-          <Switch>
+         
           <Route exact path="/" component={ShowBio}></Route>  
 
           <Route exact path="/portfolio" component={CardDisplay}></Route>
 
           <Route exact path="/contact" component={ContactInfo}></Route>
 
-          </Switch>
+         
           </div>
 
       </Router>

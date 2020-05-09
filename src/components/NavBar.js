@@ -37,9 +37,7 @@ function NavElement() {
           </div>
         </div>
       </nav>
-      {/* <Router>
-      <Route exact path="/home" component={Bio}></Route>
-      </Router> */}
+    
       </React.Fragment>
   );
 }
