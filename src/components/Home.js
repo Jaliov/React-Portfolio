@@ -31,12 +31,12 @@ function ShowBio() {
                 2020
               </p>
               He designed his first websites in 2011 using HTML, CSS and
-              JavaScript and is currently in the process of updating these
-              utilizing the advanced technologies learned at bootcamp. He has a
+              JavaScript and is currently in the process of updating 
+              with the technologies learned at bootcamp. He has a
               passion for frontend design and is always seeking to make the UI
               more unique and aethetic, as well as user friendly. Besides HTML,
               CSS and JavaScript, he is also proficient React, jQuery, and on
-              the backend Node.js, MySql, Axios, Mongo and Mongoose.
+              the backend Node.js, MySql, Mongo and Mongoose.
             </Card.Body>
           </Card>
         </div>

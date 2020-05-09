@@ -312,7 +312,7 @@ function CardDisplay() {
                 target="blank"
                 text="light"
               >
-                Lisa Botalico Flameno
+                Flamenco!
               </Button>
               <Button
                 variant="info"
