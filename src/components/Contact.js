@@ -10,10 +10,10 @@ import Col from "react-bootstrap/Col";
 
 function ContactInfo() {
   return (
-   <React.Fragment>
+    <React.Fragment>
       <Container>
         <Jumbotron style={{ marginTop: "20px" }}>
-          <h1>Contact</h1>
+          <h1 style={{ fontWeight: "bold" }}>Contact</h1>
           <hr></hr>
 
           <Form>
@@ -30,12 +30,11 @@ function ContactInfo() {
           <Col xs={6}>
             <Form.Label>Message</Form.Label>
             <Form.Control type="text" placeholder="Message" />
+
+            <Button variant="primary" size="sm" style={{ marginTop: "10px" }}>
+              Submit
+            </Button>
           </Col>
-
-          <Button variant="primary" size="sm">
-            Submit
-          </Button>
-
           <Card style={{ width: "18rem" }} />
           <Card.Body>
             <Card.Title>Joel Rudin</Card.Title>
@@ -54,7 +53,7 @@ function ContactInfo() {
           </Card.Body>
         </Jumbotron>
       </Container>
-      </React.Fragment>
+    </React.Fragment>
   );
 }
 
