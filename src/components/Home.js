@@ -2,6 +2,7 @@ import React from "react";
 import JoelImage from "./images/JoelatBarron_2016cropped.jpg";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
+import TextContent from "./TextContent";
 // import Home from "./Home";
 
 function ShowBio() {
@@ -23,20 +24,7 @@ function ShowBio() {
                 width="150"
                 alt="Joel Rudin Portrait"
               />
-              <p>
-                <strong>Joel Rudin</strong> is a professional musician who
-                creates websites, does graphic design and makes art. He holds a
-                certificate from the <br />
-                <strong> Rutgers Full Stack Coding Bootcamp</strong>, April,
-                2020
-              </p>
-              He designed his first websites in 2011 using HTML, CSS and
-              JavaScript and is currently in the process of updating 
-              with the technologies learned at bootcamp. He has a
-              passion for frontend design and is always seeking to make the UI
-              more unique and aethetic, as well as user friendly. Besides HTML,
-              CSS and JavaScript, he is also proficient React, jQuery, and on
-              the backend Node.js, MySql, Mongo and Mongoose.
+                 <div> { TextContent[9] } </div>
             </Card.Body>
           </Card>
         </div>

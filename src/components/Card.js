@@ -18,6 +18,7 @@ import WorkdaySchl from "./images/WorkdayScheduler.jpg";
 import FlamencoSiteImg from "./images/LisabflamencoScreenshot.jpg";
 import YellowChatImg from "./images/yellowChatScreenshot.jpg";
 import BurgerLoggerImg from "./images/Burger-Logger.jpg";
+import TextContent from "./TextContent";
 
 const CardStyles = {
   marginTop: "20px",
@@ -25,7 +26,8 @@ const CardStyles = {
 };
 const CardClasses = "border border-danger bg-dark text-light";
 
-function CardDisplay() {
+const CardDisplay = () => {
+ 
   return (
     <Container>
       <Row>
@@ -37,19 +39,12 @@ function CardDisplay() {
         </h1>
         <CardDeck>
           <Card style={ CardStyles } className = { CardClasses }>
-           
             <Card.Img variant="top" src={CodeQuizImg} />
             <Card.Body>
               <Card.Title>Viola Quiz!</Card.Title>
-              <Card.Text>
-                In this little quiz app you can test your knowledge of a musical
-                instrument unknown to many--the viola! The user first enters
-                his/her initials which are stored in local storage. Click the
-                'Start' button and a multiple choice question loads. Once
-                answered, it disappears, and a new question loads. Your score
-                appears at bottom as a timer counts down-- you have sixty
-                seconds! Once completed, final score is stored, quiz resets.
-              </Card.Text>
+
+              <React.Fragment> { TextContent[0] } </React.Fragment>
+
               <ListGroup>
                 <ListGroup.Item variant="dark">Built with: </ListGroup.Item>
                 <ListGroup.Item variant="light">
@@ -89,13 +84,9 @@ function CardDisplay() {
             <Card.Img variant="top" src={WeatherAppImg} />
             <Card.Body>
               <Card.Title>Weather App</Card.Title>
-              <Card.Text>
-                A convenient Weather API that displays the current weather in
-                cities throughout the world as well as a 5 day forecast. Enter a
-                city in the search field, and a full list of weather stats load,
-                temperature, humidity, windspeed, and UVIndex (color coded!).
-                Down below, see the five day forecast with applicable icons!
-              </Card.Text>
+
+              <React.Fragment> { TextContent[1] } </React.Fragment>
+              
               <ListGroup>
                 <ListGroup.Item variant="dark">Built with: </ListGroup.Item>
                 <ListGroup.Item variant="light">
@@ -133,7 +124,7 @@ function CardDisplay() {
               <small className="text-muted"></small>
             </Card.Footer>
           </Card>
-
+       
           <Col md={1}></Col>
           {/* </CardDeck>
 {/*  */}
@@ -144,14 +135,9 @@ function CardDisplay() {
             <Card.Img variant="top" img src={WorkdaySchl} />
             <Card.Body>
               <Card.Title>Workday Scheduler</Card.Title>
-              <Card.Text>
-                A simple calendar application that allows the user to save
-                events for each hour of the day. Timeblocks represent standard
-                business hours, color coded to indicate whether it is in the
-                past, present, or future. Click into a timeblock and enter an
-                event. The save button saves the text for the event in local
-                storage. When the page is refreshed, the saved events persist.
-              </Card.Text>
+              
+              <React.Fragment> { TextContent[2] } </React.Fragment>
+
               <ListGroup>
                 <ListGroup.Item variant="dark">Built with: </ListGroup.Item>
                 <ListGroup.Item variant="light">
@@ -199,13 +185,9 @@ function CardDisplay() {
             <Card.Img variant="top" src={FlipCardsImg} />
             <Card.Body>
               <Card.Title>FlipCards</Card.Title>
-              <Card.Text>
-                Team project: I was the frontend designer.
-                <br />A website designed to test the computer student's coding
-                knowledge using a virtual flashcards style interface. Useful for
-                interview prep. Four different sections with four different
-                languages.
-              </Card.Text>
+
+              <React.Fragment> { TextContent[3] } </React.Fragment>
+             
               <ListGroup>
                 <ListGroup.Item variant="dark">Built with: </ListGroup.Item>
                 <ListGroup.Item variant="light">
@@ -249,14 +231,9 @@ function CardDisplay() {
             <Card.Img variant="top" src={FlamencoSiteImg} />
             <Card.Body>
               <Card.Title>Lisa Botalico Flamenco!</Card.Title>
-              <Card.Text>
-                The website of the great flamenco dancer and singer Lisa
-                Botalico! First created in 2011 the site has been updated over
-                the years and retooled recently based on methods acquired at
-                Rutgers coding bootcamp, 2020. The site includes numerous
-                photos, a bio section, reviews, useful links, and upcoming
-                events. Coming soon: audios and videos! Publised on goDaddy.com
-              </Card.Text>
+
+              <React.Fragment> { TextContent[4] } </React.Fragment>
+            
               <ListGroup>
                 <ListGroup.Item variant="dark">Built with: </ListGroup.Item>
                 <ListGroup.Item variant="light">
@@ -302,15 +279,9 @@ function CardDisplay() {
             <Card.Img variant="top" img src={BurgerLoggerImg} />
             <Card.Body>
               <Card.Title>Burger-Logger</Card.Title>
-              <Card.Text>
-                "Eat-Da-Burger!" is a restaurant app that lets users input the
-                names of burgers they'd like to eat. Whenever a user submits a
-                burger's name, the burger is displayed on the left side of the
-                page -- waiting to be devoured. Each burger in the waiting area
-                also has a 'Devour it!' button. When the user clicks it, the
-                burger will move to the right side of the page. Every burger is
-                stored in a database, whether devoured or not.
-              </Card.Text>
+
+              <React.Fragment> { TextContent[5] } </React.Fragment>
+             
               <ListGroup>
                 <ListGroup.Item variant="dark">Built with: </ListGroup.Item>
                 <ListGroup.Item variant="light">
@@ -355,13 +326,9 @@ function CardDisplay() {
             <Card.Img variant="top" img src={ HipGrandpaImg } />
             <Card.Body>
               <Card.Title>Hip Grandpa</Card.Title>
-              <Card.Text>
-                Team Project: I was primarily frontend designer.
-                <br /> Hip Grandpa was created to help users with the difficult
-                task of keeping up with today's fast paced technological trends
-                and innovations. Its goal is to make everyone tech savvy with
-                special emphasis on the older generations.
-              </Card.Text>
+
+              <React.Fragment> { TextContent[6] } </React.Fragment>
+             
               <ListGroup>
                 <ListGroup.Item variant="dark">Built with: </ListGroup.Item>
                 <ListGroup.Item variant="light">
@@ -404,12 +371,9 @@ function CardDisplay() {
             <Card.Img variant="top" src={ HmanImage } />
             <Card.Body>
               <Card.Title>React Violinist Fan Page!</Card.Title>
-              <Card.Text>
-                Jascha Heifetz is universally considereed the greatest violinist
-                that ever lived, so I made fan page about him! This is an
-                updated React version of a combo freeCodeCamp project pre-work
-                assignment for Rutgers bootcamp.
-              </Card.Text>
+
+              <React.Fragment> { TextContent[7] } </React.Fragment>
+             
               <ListGroup>
                 <ListGroup.Item variant="dark">Built with: </ListGroup.Item>
                 <ListGroup.Item variant="light">
@@ -450,16 +414,9 @@ function CardDisplay() {
             <Card.Img variant="top" img src={YellowChatImg} />
             <Card.Body>
               <Card.Title>YELLOWChat</Card.Title>
-              <Card.Text>
-                Team project, I was the frontend designer. <br />
-                YELLOWChat is a MERN site designed to bring small businesses and
-                customers together. YellowChat's engine is a specialty blog for
-                small shops and vendors to keep in contact with their local
-                hometown customer base under any conditions. Customers will have
-                direct access to shop owners. The coronavirus pandemic launched
-                the idea that small main street shop owners needed a means to
-                keep in contact with their customers.
-              </Card.Text>
+
+              <React.Fragment> { TextContent[7] } </React.Fragment>
+             
               <ListGroup>
                 <ListGroup.Item variant="dark">Built with: </ListGroup.Item>
                 <ListGroup.Item variant="light">
@@ -501,7 +458,7 @@ function CardDisplay() {
         </CardDeck>
       </Row>
     </Container>
-  );
+  )         
 }
 
 export default CardDisplay;
