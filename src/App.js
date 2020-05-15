@@ -2,9 +2,6 @@
 import React, { Component } from "react";
 import CardDisplay from "./components/Card";
 import ShowBio from "./components/Home";
-//  import Home from "./components/Home";
-//  import Bio from "./components/Home";
-
 import ContactInfo from "./components/Contact";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";

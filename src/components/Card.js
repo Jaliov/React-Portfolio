@@ -8,6 +8,7 @@ import {
   Col,
   ListGroup,
   ListGroupItem,
+  Badge
 } from "react-bootstrap";
 import CodeQuizImg from "./images/Code_QuizImage.jpg";
 import HmanImage from "./images/fanPageImage.jpg";
@@ -19,9 +20,11 @@ import FlamencoSiteImg from "./images/LisabflamencoScreenshot.jpg";
 import YellowChatImg from "./images/yellowChatScreenshot.jpg";
 import BurgerLoggerImg from "./images/Burger-Logger.jpg";
 import TextContent from "./TextContent";
+// import CardStyles from "./TextContent";
 
 const CardStyles = {
   marginTop: "20px",
+  paddingTop: "20px",
   boxShadow: "15px 10px 10px rgb(75, 63, 60, 0.7)",
 };
 const CardClasses = "border border-danger bg-dark text-light";
@@ -31,12 +34,12 @@ const CardDisplay = () => {
   return (
     <Container>
       <Row>
-        <h1
-          className="bg-light"
-          style={{ fontWeight: "bold", marginTop: "30px", padding: "10px" }}
-        >
-          Portfolio
-        </h1>
+      <h1 style = {{fontWeight: "bold"}}> 
+      <Badge variant = "light" style= {{ marginTop: "40px", padding: "10px", color: "rgb(137, 224, 220)" }} >  
+          Portfolio 
+         
+          </Badge>
+          </h1>  
         <CardDeck>
           <Card style={ CardStyles } className = { CardClasses }>
             <Card.Img variant="top" src={CodeQuizImg} />
@@ -101,7 +104,7 @@ const CardDisplay = () => {
                     <li>Photoshop</li>
                   </ul>
                 </ListGroup.Item>
-                <ListGroupItem>Links:</ListGroupItem>
+                {/* <ListGroupItem>Links:</ListGroupItem> */}
               </ListGroup>
             </Card.Body>
             <Card.Body>
@@ -151,7 +154,7 @@ const CardDisplay = () => {
                     <li>Photoshop</li>
                   </ul>
                 </ListGroup.Item>
-                <ListGroupItem>Links:</ListGroupItem>
+                {/* <ListGroupItem>Links:</ListGroupItem> */}
               </ListGroup>
             </Card.Body>
             <Card.Body>
@@ -203,7 +206,7 @@ const CardDisplay = () => {
                     <li>Photoshop</li>
                   </ul>
                 </ListGroup.Item>
-                <ListGroupItem>Links:</ListGroupItem>
+                {/* <ListGroupItem>Links:</ListGroupItem> */}
               </ListGroup>
             </Card.Body>
             <Card.Body>
@@ -245,7 +248,7 @@ const CardDisplay = () => {
                     <li>Photoshop</li>
                   </ul>
                 </ListGroup.Item>
-                <ListGroupItem>Links:</ListGroupItem>
+                {/* <ListGroupItem>Links:</ListGroupItem> */}
               </ListGroup>
             </Card.Body>
             <Card.Body>
@@ -294,7 +297,7 @@ const CardDisplay = () => {
                     <li>CSS</li>
                   </ul>
                 </ListGroup.Item>
-                <ListGroupItem>Links:</ListGroupItem>
+                {/* <ListGroupItem>Links:</ListGroupItem> */}
               </ListGroup>
             </Card.Body>
             <Card.Body>
@@ -342,7 +345,7 @@ const CardDisplay = () => {
                     <li>Photoshop</li>
                   </ul>
                 </ListGroup.Item>
-                <ListGroupItem>Links:</ListGroupItem>
+                {/* <ListGroupItem>Links:</ListGroupItem> */}
               </ListGroup>
             </Card.Body>
             <Card.Body>
@@ -384,7 +387,7 @@ const CardDisplay = () => {
                     <li>CSS</li>
                   </ul>
                 </ListGroup.Item>
-                <ListGroupItem>Links:</ListGroupItem>
+                {/* <ListGroupItem>Links:</ListGroupItem> */}
               </ListGroup>
             </Card.Body>
             <Card.Body>

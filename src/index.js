@@ -1,12 +1,8 @@
-import React from 'react';
+import React from "react";
 import ReactDOM from "react-dom";
- import App from "./App";
+import App from "./App";
 
-// eslint-disable-next-line 
-ReactDOM.render(<App />,  
-    document.getElementById("root")
-  
-    )        
-  
-  export default App;
-  
+// eslint-disable-next-line
+ReactDOM.render(<App />, document.getElementById("root"));
+
+export default App;
