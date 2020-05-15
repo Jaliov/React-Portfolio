@@ -129,11 +129,7 @@ const CardDisplay = () => {
           </Card>
        
           <Col md={1}></Col>
-          {/* </CardDeck>
-{/*  */}
-
-          {/* <CardDeck> */}
-          {/* Burger Logger */}
+    
           <Card className={CardClasses} style={CardStyles}>
             <Card.Img variant="top" img src={WorkdaySchl} />
             <Card.Body>
