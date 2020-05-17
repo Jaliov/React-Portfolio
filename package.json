@@ -8,6 +8,8 @@
     "axios": "^0.16.2",
     "bootstrap": "^4.4.1",
     "gh-pages": "^2.2.0",
+    "jquery": "^1.9.1",
+    "local-storage": "^2.0.0",
     "react": "^16.0.0",
     "react-bootstrap": "^1.0.0",
     "react-dom": "^16.0.0",

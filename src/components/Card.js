@@ -20,7 +20,6 @@ import FlamencoSiteImg from "./images/LisabflamencoScreenshot.jpg";
 import YellowChatImg from "./images/yellowChatScreenshot.jpg";
 import BurgerLoggerImg from "./images/Burger-Logger.jpg";
 import TextContent from "./TextContent";
-// import CardStyles from "./TextContent";
 
 const CardStyles = {
   marginTop: "20px",
