@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "Router": "^2.1.0",
-    "axios": "^0.16.2",
+    "axios": "^0.18.1",
     "bootstrap": "^4.4.1",
     "gh-pages": "^2.2.0",
     "jquery": "^1.9.1",
