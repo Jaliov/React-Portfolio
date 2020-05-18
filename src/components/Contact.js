@@ -11,9 +11,8 @@ import StoreInput from './Storage';
 class ContactInfo extends Component {
   handleClick = (e) => {
     e.preventDefault();
-    {
-      StoreInput();
-    }
+
+    StoreInput();
   };
 
   render() {
@@ -29,18 +28,18 @@ class ContactInfo extends Component {
                 {/* controlId="formBasicName"> */}
                 <Col xs={6}>
                   <Form.Label>Name</Form.Label>
-                  <Form.Control type='text' placeholder='Name' id='entryName' />
+                  <Form.Control type='text' placeholder='Name' id='EntryName' />
                   <Form.Label>Email address</Form.Label>
                   <Form.Control
                     type='email'
                     placeholder='Enter email'
-                    id='eMail'
+                    id='EMail'
                   />
                   <Form.Label>Message</Form.Label>
                   <Form.Control
                     type='text'
                     placeholder='Message'
-                    id='message'
+                    id='Message'
                   />
                 </Col>
               </Form.Group>
