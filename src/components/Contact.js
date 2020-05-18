@@ -11,9 +11,9 @@ import StoreInput from './Storage';
 class ContactInfo extends Component {
   handleClick = (e) => {
     e.preventDefault();
-    {
+    
       StoreInput();
-    }
+    
   };
 
   render() {
