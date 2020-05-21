@@ -1,5 +1,6 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const NavElement = () => {
   return (
@@ -17,11 +18,15 @@ const NavElement = () => {
         >
           Joel Rudin
         </Navbar.Brand>
-        <Nav className='mr-auto'>
-          <Nav.Link href='/home'>Home</Nav.Link>
-          <Nav.Link href='/portfolio'>Portfolio</Nav.Link>
-          <Nav.Link href='/contact'>Contact</Nav.Link>
-        </Nav>
+        <Link className='nav-item nav-link active' to='/'>
+          Home
+        </Link>
+        <Link className='nav-item nav-link' to='/portfolio'>
+          Portfolio
+        </Link>
+        <Link className='nav-item nav-link' to='/contact'>
+          Contact
+        </Link>
       </Navbar.Collapse>
     </Navbar>
   );
