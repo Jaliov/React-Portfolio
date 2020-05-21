@@ -1,14 +1,8 @@
-
-.navbar-brand {
-    background-color:rgb(137, 224, 220);
-    font-family: Anton, sans-serif;
-    font-family: PT Serif, serif;   
-}
-
-h1 {
+h1,
+#Brand {
     color: rgb(137, 224, 220);
-    /* font-family: Anton, sans-serif; */
-    font-family: PT Serif, serif; 
+    padding: 10px;
+    font-family: PT Serif, serif;
 }
 
 .row {
@@ -16,5 +10,5 @@ h1 {
 }
 
 body {
-   background-image:url('storefrontsColorizedTextureBluetexture.jpg');
+    background-image: url('storefrontsColorizedTextureBluetexture.jpg');
 }

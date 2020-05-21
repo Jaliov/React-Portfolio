@@ -1,14 +1,12 @@
 const StoreInput = (props) => {
   props = {
-    Name: document.querySelector('#EntryName').value,
-    Email: document.querySelector('#EMail').value,
-    Message: document.querySelector('#Message').value,
+    name: document.querySelector('#EntryName').value,
+    email: document.querySelector('#EMail').value,
+    message: document.querySelector('#Message').value,
   };
 
-  let FormEntry = { ...props };
-
   typeof Storage !== 'undefined'
-    ? console.log('Info : ' + FormEntry)
+    ? console.log('Info : ' + props)
     : (document.getElementById('Name').innerHTML =
         'Sorry, your browser does not support Web Storage...');
 
@@ -22,7 +20,7 @@ const StoreInput = (props) => {
     localStorage.setItem(key, JSON.stringify(RetrievedInput));
     console.log(localStorage.getItem(key));
   };
-  AppendValueToStorage('Info', FormEntry);
+  AppendValueToStorage('Info', props);
   document.forms[0].reset();
 };
 
