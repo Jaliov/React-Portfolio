@@ -1,7 +1,7 @@
 const StoreInput = (props) => {
   props = {
-    name: document.querySelector('#EntryName').value,
-    email: document.querySelector('#EMail').value,
+    name: document.querySelector('#entryName').value,
+    email: document.querySelector('#eMail').value,
     message: document.querySelector('#Message').value,
   };
 
