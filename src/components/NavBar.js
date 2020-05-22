@@ -15,8 +15,7 @@ const NavElement = () => {
           }}
           className='text-light'
         >
-          {' '}
-          <Link className='text-light' to='/'>
+          <Link className='text-light' to='/home'>
             Joel Rudin
           </Link>
         </Navbar.Brand>
