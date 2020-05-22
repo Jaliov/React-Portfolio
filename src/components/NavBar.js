@@ -9,14 +9,16 @@ const NavElement = () => {
       <Navbar.Collapse id='basic-navbar-nav'>
         <Navbar.Brand
           id='brand'
-          href='/'
           style={{
             fontWeight: 'bold',
             backgroundColor: 'rgb(137, 224, 220)',
           }}
           className='text-light'
         >
-          Joel Rudin
+          {' '}
+          <Link className='text-light' to='/'>
+            Joel Rudin
+          </Link>
         </Navbar.Brand>
         <Link className='nav-item nav-link active' to='/'>
           Home
