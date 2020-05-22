@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 
-const AppDescrip = [
+const TextContent = [
   <Card.Text>
     In this little quiz app you can test your knowledge of a musical instrument
     unknown to many--the viola! The user first enters his/her initials which are
@@ -93,9 +93,5 @@ const AppDescrip = [
     </p>
   </React.Fragment>,
 ];
-
-const TextContent = AppDescrip.map((text) => {
-  return text;
-});
 
 export default TextContent;

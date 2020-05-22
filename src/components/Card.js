@@ -32,18 +32,10 @@ const CardDisplay = () => {
   return (
     <Container>
       <Row>
-        <h1 style={{ fontWeight: 'bold' }}>
-          <Badge
-            variant='light'
-            style={{
-              marginTop: '40px',
-              padding: '10px',
-              color: 'rgb(137, 224, 220)',
-            }}
-          >
-            Portfolio
-          </Badge>
-        </h1>
+        <Badge variant='light' style={{ marginTop: '20px' }}>
+          <h1>Portfolio</h1>
+        </Badge>
+
         <CardDeck>
           <Card style={CardStyles} className={CardClasses}>
             <Card.Img variant='top' src={CodeQuizImg} />
@@ -225,9 +217,7 @@ const CardDisplay = () => {
               <small className='text-muted'></small>
             </Card.Footer>
           </Card>
-
           <Col md={1}></Col>
-
           {/* Lisa */}
           <Card className={CardClasses} style={CardStyles}>
             <Card.Img variant='top' src={FlamencoSiteImg} />
@@ -270,11 +260,8 @@ const CardDisplay = () => {
               <small className='text-muted'></small>
             </Card.Footer>
           </Card>
-
-          <Col md={1}></Col>
-          {/* </CardDeck>
+          <Col md={1}></Col>f{/* </CardDeck>
 {/*  */}
-
           {/* <CardDeck> */}
           {/* Burger Logger */}
           <Card className={CardClasses} style={CardStyles}>

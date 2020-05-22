@@ -1,8 +1,9 @@
 h1,
-#brand {
+h4 {
     color: rgb(137, 224, 220);
-    padding: 10px;
+    padding: 5px 10px;
     font-family: PT Serif, serif;
+    font-weight: bold;
 }
 
 .row {
@@ -11,4 +12,8 @@ h1,
 
 body {
     background-image: url('storefrontsColorizedTextureBluetexture.jpg');
+}
+
+Badge {
+    margin-top: 40px;
 }

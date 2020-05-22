@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Button from 'react-bootstrap/Button';
+import { Button, Badge } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,7 +18,9 @@ class ContactInfo extends Component {
       <React.Fragment>
         <Container>
           <Jumbotron style={{ marginTop: '20px' }}>
-            <h1 style={{ fontWeight: 'bold' }}>Contact</h1>
+            <Badge variant='light'>
+              <h1>Contact</h1>
+            </Badge>
             <hr></hr>
 
             <Form onSubmit>
