@@ -41,7 +41,6 @@ const CardDisplay = () => {
             <Card.Img variant='top' src={CodeQuizImg} />
             <Card.Body>
               <Card.Title>Viola Quiz!</Card.Title>
-
               <React.Fragment> {TextContent[0]} </React.Fragment>
 
               <ListGroup>
@@ -207,7 +206,7 @@ const CardDisplay = () => {
                 target='blank'
                 text='light'
               >
-                Viola Quiz!
+                Flipcards!
               </Button>
               <Button variant='info' href='https://github.com/Jaliov/flipcards'>
                 GitHub
@@ -234,6 +233,7 @@ const CardDisplay = () => {
                     <li>CSS</li>
                     <li>Bootstrap</li>
                     <li>JavaScript</li>
+                    <li>lightbox.js</li>
                     <li>Photoshop</li>
                   </ul>
                 </ListGroup.Item>
@@ -293,7 +293,7 @@ const CardDisplay = () => {
                 target='blank'
                 text='light'
               >
-                Viola Quiz!
+                Burger-Logger
               </Button>
               <Button
                 variant='info'
