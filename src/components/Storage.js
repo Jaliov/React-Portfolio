@@ -6,7 +6,7 @@ const StoreInput = (props) => {
   };
 
   typeof Storage !== 'undefined'
-    ? console.log('Info : ' + props)
+    ? console.log('Info : ' + props.name)
     : (document.getElementById('Name').innerHTML =
         'Sorry, your browser does not support Web Storage...');
 

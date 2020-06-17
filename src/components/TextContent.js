@@ -15,8 +15,11 @@ const TextContent = [
     A convenient Weather API that displays the current weather in cities
     throughout the world as well as a 5 day forecast. Enter a city in the search
     field, and a full list of weather stats load, temperature, humidity,
-    windspeed, and UVIndex (color coded!). Down below, see the five day forecast
-    with applicable icons!
+    windspeed, and UVIndex (color coded!). Dig the way the background image
+    shifts according to current conditions. Down below, see the five day
+    forecast with applicable icons! Want to review the weather stats for a
+    particular city? Just click on any of the so-named buttons that load in
+    response to each search query.
   </Card.Text>,
 
   <Card.Text>
@@ -37,9 +40,9 @@ const TextContent = [
   <Card.Text>
     The website of the great flamenco dancer and singer Lisa Botalico! First
     created in 2011 the site has been updated over the years and retooled
-    recently based on methods acquired at Rutgers coding bootcamp, 2020. The
+    recently based on technologies learned at Rutgers coding bootcamp, 2020. The
     site includes numerous photos, a bio section, reviews, useful links, and
-    upcoming events. Coming soon: audios and videos! Publised on goDaddy.com
+    upcoming events. Coming soon: audios and videos! Published on goDaddy.com
   </Card.Text>,
 
   <Card.Text>
@@ -62,7 +65,7 @@ const TextContent = [
   <Card.Text>
     Jascha Heifetz is universally considereed the greatest violinist that ever
     lived, so I made fan page about him! This is an updated React version of a
-    combo freeCodeCamp project pre-work assignment for Rutgers bootcamp.
+    combo freeCodeCamp project and pre-work assignment for Rutgers bootcamp.
   </Card.Text>,
 
   <Card.Text>
