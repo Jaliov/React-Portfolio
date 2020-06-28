@@ -51,6 +51,9 @@ const CardDisplay = () => {
                     <li>CSS</li>
                     <li>Bootstrap</li>
                     <li>JavaScript</li>
+                    <li>Node.js</li>
+                    <li>Mongodb/Mongoose</li>
+                    <li>Photoshop</li>
                   </ul>
                 </ListGroup.Item>
                 <ListGroupItem>Links:</ListGroupItem>
@@ -59,13 +62,16 @@ const CardDisplay = () => {
             <Card.Body>
               <Button
                 variant='danger'
-                href='https://jaliov.github.io/Code-Quiz/'
+                href='https://frozen-beach-43331.herokuapp.com/'
                 target='blank'
                 text='light'
               >
                 Viola Quiz!
               </Button>
-              <Button variant='info' href='https://github.com/Jaliov/Code-Quiz'>
+              <Button
+                variant='info'
+                href='https://github.com/Jaliov/Code-Quiz-Viola'
+              >
                 GitHub
               </Button>
             </Card.Body>

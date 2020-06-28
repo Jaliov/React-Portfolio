@@ -28,7 +28,14 @@ class ContactInfo extends Component {
                 {/* controlId="formBasicName"> */}
                 <Col xs={6}>
                   <Form.Label>Name</Form.Label>
-                  <Form.Control type='text' placeholder='Name' id='entryName' />
+                  <Form.Control
+                    type='text'
+                    placeholder='Name'
+                    id='entryName'
+                    method='post'
+                    action='/addname'
+                  ></Form.Control>
+
                   <Form.Label>Email address</Form.Label>
                   <Form.Control
                     type='email'

@@ -5,10 +5,10 @@ const TextContent = [
   <Card.Text>
     In this little quiz app you can test your knowledge of a musical instrument
     unknown to many--the viola! The user first enters his/her initials which are
-    stored in local storage. Click the 'Start' button and a multiple choice
-    question loads. Once answered, it disappears, and a new question loads. Your
-    score appears at bottom as a timer counts down-- you have sixty seconds!
-    Once completed, final score is stored, quiz resets.
+    stored in a database via Mongodb. Click the 'Start' button and a multiple
+    choice question loads. Once answered, it disappears, and a new question
+    loads. Your score appears at bottom as a timer counts down-- you have sixty
+    seconds! Once completed, you can submit your final score and quiz resets.
   </Card.Text>,
 
   <Card.Text>
