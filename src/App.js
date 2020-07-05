@@ -16,11 +16,8 @@ class App extends Component {
           <NavElement />
 
           <Route exact path='/' component={ShowBio}></Route>
-
           <Route exact path='/home' component={ShowBio}></Route>
-
           <Route exact path='/portfolio' component={CardDisplay}></Route>
-
           <Route exact path='/contact' component={ContactInfo}></Route>
         </div>
       </Router>
