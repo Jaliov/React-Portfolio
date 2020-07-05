@@ -53,7 +53,7 @@ class ContactInfo extends Component {
     };
     console.log(payload);
     axios({
-      url: 'https://localhost:3000/testAPI/save',
+      url: '/testAPI/save',
       method: 'POST',
       data: payload,
     })
