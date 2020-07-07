@@ -8,7 +8,7 @@ const contactRoutes = express.Router();
 const PORT = process.env.PORT || 4000;
 //app.use(cors());
 app.use(bodyParser.json());
-var path = require('path');
+const path = require('path');
 //var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 let User = require('./routes/portfolio.model');
@@ -17,7 +17,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var testAPIRouter = require('./routes/testAPI');
 
-// view engine setup
+//view engine setup
 app.set('views', path.join(__dirname, 'views'));
 // app.set('view engine', 'jade');
 
@@ -30,8 +30,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/testAPI', testAPIRouter);
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-
-// catch 404 and forward to error handler
+// app.use('routes/testAPI', routes);
+//catch 404 and forward to error handler
 app.use(function (req, res, next) {
   next(createError(404));
 });
@@ -54,9 +54,6 @@ mongoose.connection.on('connected', () => {
 });
 
 // error handler
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-
 // Step 3
 
 app.use('routes/testAPI', contactRoutes);
