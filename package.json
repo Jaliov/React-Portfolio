@@ -1,29 +1,33 @@
 {
-  "homepage": "https://jailov.github.io/React-Portfolio",
-  "name": "user_directory",
-  "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "Router": "^2.1.0",
-    "axios": "^0.16.2",
-    "bootstrap": "^4.4.1",
-    "gh-pages": "^2.2.0",
-    "jquery": "^1.9.1",
-    "local-storage": "^2.0.0",
-    "react": "^16.0.0",
-    "react-bootstrap": "^1.0.0",
-    "react-dom": "^16.0.0",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "1.0.14",
-    "route": "^0.2.5",
-    "switch": "0.0.0"
-  },
+  "name": "api",
+  "version": "0.0.0",
+  "private": false,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "start": "node app.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently -n 'app,client' -c 'red,green'  \"nodemon app.js\" \"npm run client\""
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "check-node-version": "^4.0.3",
+    "concurrently": "^5.2.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongoose": "^5.9.21",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "engines": {
+    "node": "12.6.0"
   }
 }
