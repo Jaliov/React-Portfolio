@@ -2,7 +2,7 @@ var createError = require('http-errors');
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-const cors = require('cors');
+// const cors = require('cors');
 const bodyParser = require('body-parser');
 const contactRoutes = express.Router();
 const PORT = process.env.PORT || 4000;
@@ -23,7 +23,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 app.use(logger('dev'));
 app.use(express.json());
-app.use(cors());
+// app.use(cors());
 app.use(express.urlencoded({ extended: false }));
 // app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
@@ -59,10 +59,10 @@ app.use(express.urlencoded({ extended: false }));
 
 // Step 3
 
-app.use('/testAPI', contactRoutes);
+app.use('routes/testAPI', contactRoutes);
 
 if (process.env.NODE_ENV === 'production') {
-  app.use(express.static('React-Portfolio/build'));
+  app.use(express.static('client/build'));
 }
 
 app.listen(PORT, function () {

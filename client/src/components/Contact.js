@@ -53,7 +53,7 @@ class ContactInfo extends Component {
     console.log(payload);
 
     axios({
-      url: 'http://localhost:4000/testAPI/save',
+      url: '/testAPI/save',
       method: 'POST',
       data: payload,
     })
@@ -109,7 +109,7 @@ class ContactInfo extends Component {
                     type='text'
                     name=''
                     placeholder='Message'
-                    id='message'
+                    id='Message'
                     value={this.message}
                     onChange={this.handleChangeMessage}
                   />
