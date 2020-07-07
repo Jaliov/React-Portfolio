@@ -4,17 +4,16 @@
 
 ![](React-PortfolioScrnShot.jpg)
 
-## Technologies used: 
+## Technologies used:
 
 - React
 - JavaScript
 - Node.js
 - React Bootstrap
-- CSS 
+- CSS
 - Photoshop
 
-
-## List of Projects: 
+## List of Projects:
 
 - Viola Quiz
 - Weather-App
@@ -24,7 +23,6 @@
 - Burger-Logger
 - HipGrandpa
 - React Violinist Fan Page!
-- YELLOWChat 
+- YELLOWChat
 
-## Deployment: 
-### https://jaliov.github.io/React-Portfolio/
+## Deployment:

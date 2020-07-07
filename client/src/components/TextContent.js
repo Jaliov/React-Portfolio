@@ -86,7 +86,7 @@ const TextContent = [
       the <br />
       <strong> Rutgers Full Stack Coding Bootcamp</strong>, April, 2020
     </p>
-    <p>
+    <p className='App-intro'>
       He designed his first websites in 2011 using HTML, CSS and JavaScript and
       is now in the process of updating them with the technologies learned at
       bootcamp. He has a passion for frontend design and is always seeking to

@@ -64,13 +64,20 @@ class ContactInfo extends Component {
         console.log('Internal server error');
       });
   };
+
   render() {
+    console.log('State ', this.state);
     return (
       <React.Fragment>
         <Container>
           <Jumbotron style={{ marginTop: '20px' }}>
             <Badge variant='light'>
               <h1>Contact</h1>
+              <div className='App'>
+                <header className='App-header'>
+                  <p className='App-intro text-light'>server running</p>
+                </header>
+              </div>
             </Badge>
             <hr></hr>
 
@@ -81,6 +88,7 @@ class ContactInfo extends Component {
                   <Form.Label>Name</Form.Label>
                   <Form.Control
                     type='text'
+                    name=''
                     placeholder='Name'
                     id='entryName'
                     value={this.name}
@@ -89,7 +97,8 @@ class ContactInfo extends Component {
 
                   <Form.Label>Email address</Form.Label>
                   <Form.Control
-                    type='email'
+                    type='text'
+                    name=''
                     placeholder='Enter email'
                     id='eMail'
                     value={this.email}
@@ -98,8 +107,9 @@ class ContactInfo extends Component {
                   <Form.Label>Message</Form.Label>
                   <Form.Control
                     type='text'
+                    name=''
                     placeholder='Message'
-                    id='Message'
+                    id='message'
                     value={this.message}
                     onChange={this.handleChangeMessage}
                   />
