@@ -3,12 +3,11 @@
   "version": "0.0.0",
   "private": false,
   "scripts": {
-    "build": "cd client && npm run build",
-    "install-client": "cd client && npm install",
-    "heroku-postbuild": "npm run install-client && npm run build",
+    "install-client": "npm install --prefix client",
     "start": "node app.js",
     "client": "cd client && npm start",
-    "dev": "concurrently -n 'app,client' -c 'red,green'  \"nodemon app.js\" \"npm run client\""
+    "dev": "concurrently -n 'app,client' -c 'red,green'  \"nodemon app.js\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false  npm install --prefix client && npm run build --prefix client  "
   },
   "dependencies": {
     "axios": "^0.19.2",
