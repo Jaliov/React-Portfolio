@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
 import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
-import StoreInput from './Storage';
+// import StoreInput from './Storage';
 import axios from 'axios';
 
 class ContactInfo extends Component {
@@ -39,7 +39,7 @@ class ContactInfo extends Component {
   //Submit
   handleClick = (e) => {
     e.preventDefault();
-    StoreInput();
+    // StoreInput();
     this.setState({
       name: '',
       email: '',
@@ -52,8 +52,19 @@ class ContactInfo extends Component {
     };
     console.log(payload);
 
+    // axios
+    //   .get('/testAPI')
+    //   .then((response) => {
+    //     const data = response.data;
+    //     this.setState({ payload: data });
+    //     console.log('data received');
+    //   })
+    //   .catch(() => {
+    //     console.log('Error');
+    //   });
+
     axios({
-      url: '/testAPI/save',
+      url: 'http://localhost:4000/app',
       method: 'POST',
       data: payload,
     })
