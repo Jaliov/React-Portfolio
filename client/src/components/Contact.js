@@ -18,6 +18,7 @@ class ContactInfo extends Component {
     this.handleChangeMessage = this.handleChangeMessage.bind(this);
     this.handleClick = this.handleClick.bind(this);
   }
+
   handleChangeName(event) {
     this.setState({
       name: event.target.value,
@@ -52,19 +53,8 @@ class ContactInfo extends Component {
     };
     console.log(payload);
 
-    // axios
-    //   .get('/testAPI')
-    //   .then((response) => {
-    //     const data = response.data;
-    //     this.setState({ payload: data });
-    //     console.log('data received');
-    //   })
-    //   .catch(() => {
-    //     console.log('Error');
-    //   });
-
     axios({
-      url: 'http://localhost:4000/app',
+      url: 'http://localhost:4000/testAPI/save',
       method: 'POST',
       data: payload,
     })
@@ -120,7 +110,7 @@ class ContactInfo extends Component {
                     type='text'
                     name=''
                     placeholder='Message'
-                    id='Message'
+                    id='message'
                     value={this.message}
                     onChange={this.handleChangeMessage}
                   />
