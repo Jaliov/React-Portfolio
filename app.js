@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 var path = require('path');
 //var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-let User = require('./routes/portfolio.model');
+let User = require('./models/portfolio.model');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');

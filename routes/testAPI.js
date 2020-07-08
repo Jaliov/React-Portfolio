@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-const User = require('./portfolio.model');
+const User = require('../models/portfolio.model');
 
 // Routes
 router.get('/', (req, res) => {
