@@ -62,7 +62,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use('/testAPI', contactRoutes);
 
 if (process.env.NODE_ENV === 'production') {
-  app.use(express.static('React-Portfolio/build'));
+  app.use(express.static('client/build'));
 }
 
 app.listen(PORT, function () {
