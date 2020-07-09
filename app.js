@@ -1,3 +1,4 @@
+require('dotenv').config();
 var createError = require('http-errors');
 const express = require('express');
 const app = express();
@@ -24,9 +25,11 @@ app.use(function (req, res, next) {
   next(createError(404));
 });
 
+const MONGODB_URI = process.env.MONGODB_URI;
+
 mongoose.Promise = global.Promise;
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/Portfolio',
+  MONGODB_URI || 'mongodb://localhost/Portfolio',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -40,8 +43,6 @@ mongoose.connect(
 mongoose.connection.on('connected', () => {
   console.log('MongDB is connected!!!');
 });
-
-// Step 3
 
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'));
