@@ -2,7 +2,7 @@
   "homepage": "https://jailov.github.io/React-Portfolio",
   "name": "user_directory",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "Router": "^2.1.0",
     "axios": "^0.16.2",
