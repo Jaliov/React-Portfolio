@@ -4,9 +4,8 @@
   "main": "app.js",
   "private": false,
   "scripts": {
-    "install-client": "cd client && npm install",
-    "heroku-postbuild": "npm run install-client && npm run build",
     "start": "node app.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build",
     "client": "cd client && npm start",
     "dev": "concurrently -n 'app,client' -c 'red,green'  \"nodemon app.js\" \"npm run client\""
   },
@@ -25,6 +24,6 @@
     "morgan": "~1.9.1"
   },
   "engines": {
-    "node": "12.6.0"
+    "node": "12.6.x"
   }
 }

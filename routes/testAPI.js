@@ -17,7 +17,7 @@ router.get('/', (req, res) => {
 
 router.post('/save', (req, res) => {
   const data = req.body;
-
+  console.log('Body ', req.body);
   const newUser = new User(data);
 
   newUser.save((error) => {
@@ -30,6 +30,13 @@ router.post('/save', (req, res) => {
       msg: 'Your data has been saved!!!!!!',
     });
   });
+});
+
+router.get('/testAPI/name', (req, res) => {
+  const data = {
+    name: 'peterson',
+  };
+  res.json(data);
 });
 
 module.exports = router;
