@@ -18,7 +18,11 @@ app.use(express.json());
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 
-// app.use(express.static(path.join(__dirname, 'public')));
+// app.use(express.static(path.join(__dirname, 'public')));app.use('/public', express.static(__dirname + '/public'));
+app.use('/public', express.static(__dirname + '/public'));
+app.use(express.static(__dirname + 'public/app.css'));
+app.use(express.static(__dirname + 'public/javascripts/script.js'));
+
 app.use('/testAPI', testAPIRouter);
 
 if (process.env.NODE_ENV === 'production') {
