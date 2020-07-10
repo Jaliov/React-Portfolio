@@ -54,9 +54,7 @@ class ContactInfo extends Component {
     console.log(payload);
 
     axios({
-      url:
-        process.env.baseURL / testAPI / save ||
-        'http://localhost:4000/testAPI/save',
+      url: '/testAPI/save',
       method: 'POST',
       data: payload,
     })
