@@ -33,7 +33,7 @@ if (process.env.NODE_ENV === 'production') {
   });
 }
 
-const MONGODB_URI = process.env.MONGODB_URI;
+// const MONGODB_URI = process.env.MONGODB_URI;
 
 mongoose.Promise = global.Promise;
 mongoose.connect(
