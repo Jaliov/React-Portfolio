@@ -1,6 +1,6 @@
 {
-  "homepage": "https://jailov.github.io/React-Portfolio",
-  "name": "user_directory",
+  "homepage": "https://boiling-beyond-86124.herokuapp.com/",
+  "name": "react_portfolio",
   "version": "1.0.0",
   "private": false,
   "dependencies": {
