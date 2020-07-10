@@ -32,12 +32,11 @@ if (process.env.NODE_ENV === 'production') {
     res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
   });
 }
-
-// const MONGODB_URI = process.env.MONGODB_URI;
+//process.env.MONGODB_URI;
 
 mongoose.Promise = global.Promise;
 mongoose.connect(
-  MONGODB_URI || 'mongodb://localhost/Portfolio',
+  process.env.MONGODB_URI || 'mongodb://localhost/Portfolio',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
