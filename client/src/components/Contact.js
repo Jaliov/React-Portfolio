@@ -51,12 +51,7 @@ class ContactInfo extends Component {
       message: this.state.message,
     };
     console.log(payload);
-
-    // this.setState({
-    //   name: '',
-    //   email: '',
-    //   message: '',
-    // });
+    alert('Form submitted');
 
     axios({
       url: '/testAPI/save',
@@ -87,7 +82,7 @@ class ContactInfo extends Component {
             </Badge>
             <hr></hr>
 
-            <Form onSubmit={this.handleClick} id='formInput' class='form'>
+            <Form onSubmit={this.handleClick} id='formInput'>
               <Form.Group>
                 {/* controlId="formBasicName"> */}
                 <Col xs={6}>
@@ -134,8 +129,6 @@ class ContactInfo extends Component {
               </Button>
               <Button
                 onClick={this.refreshPage}
-                // variant='secondary'
-
                 size='sm'
                 style={{
                   marginTop: '10px',
