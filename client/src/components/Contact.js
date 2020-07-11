@@ -17,6 +17,11 @@ class ContactInfo extends Component {
     this.handleChangeEmail = this.handleChangeEmail.bind(this);
     this.handleChangeMessage = this.handleChangeMessage.bind(this);
     this.handleClick = this.handleClick.bind(this);
+    this.refreshPage = this.refreshPage.bind(this);
+  }
+
+  refreshPage() {
+    window.location.reload(false);
   }
 
   handleChangeName(event) {
@@ -40,12 +45,6 @@ class ContactInfo extends Component {
   //Submit
   handleClick = (e) => {
     e.preventDefault();
-    // StoreInput();
-    this.setState({
-      name: '',
-      email: '',
-      message: '',
-    });
     const payload = {
       name: this.state.name,
       email: this.state.email,
@@ -53,8 +52,14 @@ class ContactInfo extends Component {
     };
     console.log(payload);
 
+    // this.setState({
+    //   name: '',
+    //   email: '',
+    //   message: '',
+    // });
+
     axios({
-      url: '/testAPI/save',
+      url: 'http://localhost:4000/testAPI/save',
       method: 'POST',
       data: payload,
     })
@@ -76,13 +81,13 @@ class ContactInfo extends Component {
               <h1>Contact</h1>
               <div className='App'>
                 <header className='App-header'>
-                  <p className='App-intro text-light'>server running</p>
+                  <p className='App-intro text-secondary'>server running</p>
                 </header>
               </div>
             </Badge>
             <hr></hr>
 
-            <Form onSubmit={this.handleClick}>
+            <Form onSubmit={this.handleClick} id='formInput' class='form'>
               <Form.Group>
                 {/* controlId="formBasicName"> */}
                 <Col xs={6}>
@@ -126,6 +131,18 @@ class ContactInfo extends Component {
                 style={{ marginTop: '10px' }}
               >
                 Submit
+              </Button>
+              <Button
+                onClick={this.refreshPage}
+                // variant='secondary'
+
+                size='sm'
+                style={{
+                  marginTop: '10px',
+                  backgroundColor: 'rgb(137, 224, 220)',
+                }}
+              >
+                Reset
               </Button>
             </Col>
             <Card style={{ width: '18rem' }} />
