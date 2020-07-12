@@ -51,15 +51,16 @@ class ContactInfo extends Component {
       message: this.state.message,
     };
     console.log(payload);
-    alert('Form submitted');
 
     axios({
-      url: '/testAPI/save',
+      url: 'http://localhost:4000/testAPI/save',
       method: 'POST',
       data: payload,
     })
       .then(() => {
         console.log('Data has been sent to the server ');
+        alert('Form submitted');
+        window.location.reload(false);
       })
       .catch(() => {
         console.log('Internal server error');
