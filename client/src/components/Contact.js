@@ -60,12 +60,13 @@ class ContactInfo extends Component {
       .then(() => {
         console.log('Data has been sent to the server ');
         alert('Form submitted');
+        this.refreshPage();
       })
       .catch(() => {
         console.log('Internal server error');
         alert('Error');
+        this.refreshPage();
       });
-    this.refreshPage();
   };
 
   render() {
