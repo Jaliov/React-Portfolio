@@ -20,9 +20,9 @@ class ContactInfo extends Component {
     this.refreshPage = this.refreshPage.bind(this);
   }
 
-  refreshPage() {
+  refreshPage = () => {
     window.location.reload(false);
-  }
+  };
 
   handleChangeName(event) {
     this.setState({
@@ -60,11 +60,12 @@ class ContactInfo extends Component {
       .then(() => {
         console.log('Data has been sent to the server ');
         alert('Form submitted');
-        window.location.reload(false);
       })
       .catch(() => {
         console.log('Internal server error');
+        alert('Error');
       });
+    this.refreshPage();
   };
 
   render() {
@@ -101,7 +102,7 @@ class ContactInfo extends Component {
                   <Form.Control
                     type='text'
                     name=''
-                    placeholder='Enter email'
+                    placeholder='Email'
                     id='eMail'
                     value={this.email}
                     onChange={this.handleChangeEmail}
@@ -124,19 +125,12 @@ class ContactInfo extends Component {
                 onClick={this.handleClick}
                 variant='primary'
                 size='sm'
-                style={{ marginTop: '10px' }}
-              >
-                Submit
-              </Button>
-              <Button
-                onClick={this.refreshPage}
-                size='sm'
                 style={{
                   marginTop: '10px',
                   backgroundColor: 'rgb(137, 224, 220)',
                 }}
               >
-                Reset
+                Submit
               </Button>
             </Col>
             <Card style={{ width: '18rem' }} />
