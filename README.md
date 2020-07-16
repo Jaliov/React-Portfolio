@@ -10,6 +10,9 @@
 - JavaScript
 - Node.js
 - React Bootstrap
+- MongoDB/Mongoose
+- Express.js
+- Axios
 - CSS
 - Photoshop
 
