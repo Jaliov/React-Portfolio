@@ -2,7 +2,7 @@
 
 ## A collection of web projects utilizing both frontend and backend technologies and demonstrating some of my design concepts
 
-![](React-PortfolioScrnShot.jpg)
+![](client/React-PortfolioScrnShot.jpg)
 
 ## Technologies used:
 
@@ -25,4 +25,4 @@
 - React Violinist Fan Page!
 - YELLOWChat
 
-## Deployment:
+## Deployment: https://boiling-beyond-86124.herokuapp.com/
