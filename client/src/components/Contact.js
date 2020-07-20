@@ -13,9 +13,9 @@ class ContactInfo extends Component {
   constructor(props) {
     super(props);
     this.state = { name: '', email: '', message: '' };
-    this.handleChangeName = this.handleChangeName.bind(this);
-    this.handleChangeEmail = this.handleChangeEmail.bind(this);
-    this.handleChangeMessage = this.handleChangeMessage.bind(this);
+    // this.handleChangeName = this.handleChangeName.bind(this);
+    // this.handleChangeEmail = this.handleChangeEmail.bind(this);
+    // this.handleChangeMessage = this.handleChangeMessage.bind(this);
     this.handleClick = this.handleClick.bind(this);
     this.refreshPage = this.refreshPage.bind(this);
   }
@@ -24,23 +24,23 @@ class ContactInfo extends Component {
     window.location.reload(false);
   };
 
-  handleChangeName(event) {
+  handleChangeName = (event) => {
     this.setState({
       name: event.target.value,
     });
-  }
+  };
 
-  handleChangeEmail(event) {
+  handleChangeEmail = (event) => {
     this.setState({
       email: event.target.value,
     });
-  }
+  };
 
-  handleChangeMessage(event) {
+  handleChangeMessage = (event) => {
     this.setState({
       message: event.target.value,
     });
-  }
+  };
 
   //Submit
   handleClick = (e) => {
@@ -53,6 +53,7 @@ class ContactInfo extends Component {
     console.log(payload);
 
     axios({
+      //http://localhost:4000/testAPI/save
       url: '/testAPI/save',
       method: 'POST',
       data: payload,
@@ -71,6 +72,8 @@ class ContactInfo extends Component {
 
   render() {
     console.log('State ', this.state);
+    const { name, email, message } = this.props;
+
     return (
       <React.Fragment>
         <Container>
@@ -79,7 +82,7 @@ class ContactInfo extends Component {
               <h1>Contact</h1>
               <div className='App'>
                 <header className='App-header'>
-                  <p className='App-intro text-secondary'>server running</p>
+                  <p className='App-intro text-info'>server running</p>
                 </header>
               </div>
             </Badge>
@@ -95,7 +98,7 @@ class ContactInfo extends Component {
                     name=''
                     placeholder='Name'
                     id='entryName'
-                    value={this.name}
+                    value={name}
                     onChange={this.handleChangeName}
                   ></Form.Control>
 
@@ -105,7 +108,7 @@ class ContactInfo extends Component {
                     name=''
                     placeholder='Email'
                     id='eMail'
-                    value={this.email}
+                    value={email}
                     onChange={this.handleChangeEmail}
                   />
                   <Form.Label>Message</Form.Label>
@@ -114,7 +117,7 @@ class ContactInfo extends Component {
                     name=''
                     placeholder='Message'
                     id='message'
-                    value={this.message}
+                    value={message}
                     onChange={this.handleChangeMessage}
                   />
                 </Col>

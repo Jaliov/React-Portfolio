@@ -14,7 +14,6 @@ class App extends Component {
       <Router basename={`${process.env.PUBLIC_URL}/`}>
         <div>
           <NavElement />
-
           <Route exact path='/' component={ShowBio}></Route>
           <Route exact path='/home' component={ShowBio}></Route>
           <Route exact path='/portfolio' component={CardDisplay}></Route>
