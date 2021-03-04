@@ -205,6 +205,7 @@ const CardDisplay = () => {
                 {/* <ListGroupItem>Links:</ListGroupItem> */}
               </ListGroup>
             </Card.Body>
+            
             <Card.Body>
               <Button
                 variant='danger'
@@ -263,6 +264,7 @@ const CardDisplay = () => {
                 GitHub
               </Button>
             </Card.Body>
+            <Col md={1}></Col> 
             {/* <Card.Footer>
               <small className="text-muted"></small>
             </Card.Footer> */}
