@@ -412,7 +412,7 @@ const CardDisplay = () => {
             <Card.Body>
               <Card.Title>YELLOWChat</Card.Title>
 
-              <React.Fragment> {TextContent[7]} </React.Fragment>
+              <React.Fragment> {TextContent[8]} </React.Fragment>
 
               <ListGroup>
                 <ListGroup.Item variant='dark'>Built with: </ListGroup.Item>
