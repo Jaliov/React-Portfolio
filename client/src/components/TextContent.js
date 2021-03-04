@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 const TextContent = [
   <Card.Text>
     In this little quiz app you can test your knowledge of a musical instrument
-    unknown to many--the viola! The user first enters his/her initials which are
+    little known to many--the viola! The user first enters his/her initials which are
     stored in a database via Mongodb. Click the 'Start' button and a multiple
     choice question loads. Once answered, it disappears, and a new question
     loads. Your score appears at bottom as a timer counts down-- you have sixty
@@ -88,11 +88,11 @@ const TextContent = [
     </p>
     <p className='App-intro'>
       He designed his first websites in 2011 using HTML, CSS and JavaScript and
-      is now in the process of updating them with the technologies learned at
+      recently updated them with the technologies learned at
       bootcamp. He has a passion for frontend design and is always seeking to
       make the UI more unique and aethetic, as well as user friendly. Besides
       HTML, CSS and JavaScript, he is also proficient React, jQuery, and on the
-      backend Node.js, MySql, Mongo and Mongoose.{' '}
+      backend Node.js, MySql, Mongo and Mongoose. I have recently added PHP to this list.{' '}
     </p>
   </React.Fragment>,
 ];
