@@ -180,7 +180,7 @@ const CardDisplay = () => {
 
       <Row>
         <CardDeck>
-          <Card className={CardClasses} style={CardStyles}>
+        <Card style={CardStyles} className={CardClasses}>
             <Card.Img variant='top' src={FlipCardsImg} />
             <Card.Body>
               <Card.Title>FlipCards</Card.Title>
@@ -224,9 +224,7 @@ const CardDisplay = () => {
           </Card>
           <Col md={1}></Col>
      
-        
-     
-          <Card border='danger' bg='dark' text='light' style={CardStyles}>
+          <Card style={CardStyles} className={CardClasses}>
             <Card.Img variant='top' src={ViolinClassicsImg} />
             <Card.Body>
               <Card.Title>Violin Classics</Card.Title>
