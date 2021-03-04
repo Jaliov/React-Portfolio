@@ -264,11 +264,11 @@ const CardDisplay = () => {
                 GitHub
               </Button>
             </Card.Body>
-            <Col md={1}></Col> 
-            {/* <Card.Footer>
+          <Card.Footer>
               <small className="text-muted"></small>
-            </Card.Footer> */}
+            </Card.Footer> 
           </Card>
+          <Col md={1}></Col> 
           {/* Lisa */}
           <Card className={CardClasses} style={CardStyles}>
             <Card.Img variant='top' src={FlamencoSiteImg} />
