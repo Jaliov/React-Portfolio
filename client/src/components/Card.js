@@ -14,7 +14,7 @@ import CodeQuizImg from './images/Code_QuizImage.jpg';
 import HmanImage from './images/fanPageImage.jpg';
 import FlipCardsImg from './images/FlipcardsImage.jpg';
 import WeatherAppImg from './images/WeatherAppImage.jpg';
-import HipGrandpaImg from './images/HipGrandpaImage.jpg';
+import ViolinClassicsImg from './images/violin_classics_scrnshot2.jpg';
 import WorkdaySchl from './images/WorkdayScheduler.jpg';
 import FlamencoSiteImg from './images/LisabflamencoScreenshot.jpg';
 import YellowChatImg from './images/yellowChatScreenshot.jpg';
@@ -318,9 +318,9 @@ const CardDisplay = () => {
       <Row>
         <CardDeck>
           <Card border='danger' bg='dark' text='light' style={CardStyles}>
-            <Card.Img variant='top' src={HipGrandpaImg} />
+            <Card.Img variant='top' src={ViolinClassicsImg} />
             <Card.Body>
-              <Card.Title>Hip Grandpa</Card.Title>
+              <Card.Title>Violin Classics</Card.Title>
 
               <React.Fragment> {TextContent[6]} </React.Fragment>
 
@@ -328,13 +328,13 @@ const CardDisplay = () => {
                 <ListGroup.Item variant='dark'>Built with: </ListGroup.Item>
                 <ListGroup.Item variant='light'>
                   <ul>
+                  <li>PHP</li>
                     <li>HTML</li>
                     <li>CSS</li>
-                    <li>Materialize</li>
+                    <li>Bootstrap</li>
                     <li>JavaScript</li>
-                    <li>JQuery</li>
-                    <li>API</li>
-                    <li>Photoshop</li>
+                    <li>MYSQL/PDO</li>
+                    <li>Gimp</li>
                   </ul>
                 </ListGroup.Item>
                 {/* <ListGroupItem>Links:</ListGroupItem> */}
