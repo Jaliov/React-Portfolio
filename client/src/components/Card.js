@@ -223,6 +223,52 @@ const CardDisplay = () => {
             </Card.Footer>
           </Card>
           <Col md={1}></Col>
+     
+        
+     
+          <Card border='danger' bg='dark' text='light' style={CardStyles}>
+            <Card.Img variant='top' src={ViolinClassicsImg} />
+            <Card.Body>
+              <Card.Title>Violin Classics</Card.Title>
+
+              <React.Fragment> {TextContent[6]} </React.Fragment>
+
+              <ListGroup>
+                <ListGroup.Item variant='dark'>Built with: </ListGroup.Item>
+                <ListGroup.Item variant='light'>
+                  <ul>
+                  <li>PHP</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>MYSQL/PDO</li>
+                    <li>Gimp</li>
+                  </ul>
+                </ListGroup.Item>
+                {/* <ListGroupItem>Links:</ListGroupItem> */}
+              </ListGroup>
+            </Card.Body>
+            <Card.Body>
+              <Button
+                variant='danger'
+                href='https://violin-classics.herokuapp.com/'
+                target='blank'
+                text='light'
+              >
+                Violin Classics
+              </Button>
+              <Button
+                variant='info'
+                href='https://github.com/Jaliov/Violin_Classics_History'
+              >
+                GitHub
+              </Button>
+            </Card.Body>
+            {/* <Card.Footer>
+              <small className="text-muted"></small>
+            </Card.Footer> */}
+          </Card>
           {/* Lisa */}
           <Card className={CardClasses} style={CardStyles}>
             <Card.Img variant='top' src={FlamencoSiteImg} />
@@ -266,9 +312,13 @@ const CardDisplay = () => {
               <small className='text-muted'></small>
             </Card.Footer>
           </Card>
-          <Col md={1}></Col>f{/* </CardDeck>
+          {/* <Col md={1}></Col>  */}
+
+         </CardDeck>
 {/*  */}
-          {/* <CardDeck> */}
+         </Row>
+         <Row>
+         <CardDeck> 
           {/* Burger Logger */}
           <Card className={CardClasses} style={CardStyles}>
             <Card.Img variant='top' src={BurgerLoggerImg} />
@@ -311,54 +361,6 @@ const CardDisplay = () => {
             <Card.Footer>
               <small className='text-muted'></small>
             </Card.Footer>
-          </Card>
-        </CardDeck>
-      </Row>
-
-      <Row>
-        <CardDeck>
-          <Card border='danger' bg='dark' text='light' style={CardStyles}>
-            <Card.Img variant='top' src={ViolinClassicsImg} />
-            <Card.Body>
-              <Card.Title>Violin Classics</Card.Title>
-
-              <React.Fragment> {TextContent[6]} </React.Fragment>
-
-              <ListGroup>
-                <ListGroup.Item variant='dark'>Built with: </ListGroup.Item>
-                <ListGroup.Item variant='light'>
-                  <ul>
-                  <li>PHP</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
-                    <li>JavaScript</li>
-                    <li>MYSQL/PDO</li>
-                    <li>Gimp</li>
-                  </ul>
-                </ListGroup.Item>
-                {/* <ListGroupItem>Links:</ListGroupItem> */}
-              </ListGroup>
-            </Card.Body>
-            <Card.Body>
-              <Button
-                variant='danger'
-                href='https://violin-classics.herokuapp.com/'
-                target='blank'
-                text='light'
-              >
-                Violin Classics
-              </Button>
-              <Button
-                variant='info'
-                href='https://github.com/Jaliov/Violin_Classics_History'
-              >
-                GitHub
-              </Button>
-            </Card.Body>
-            {/* <Card.Footer>
-              <small className="text-muted"></small>
-            </Card.Footer> */}
           </Card>
 
           <Col md={1}></Col>
