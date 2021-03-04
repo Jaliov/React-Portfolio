@@ -343,15 +343,15 @@ const CardDisplay = () => {
             <Card.Body>
               <Button
                 variant='danger'
-                href='https://jaliov.github.io/hipGrandpa/'
+                href='https://violin-classics.herokuapp.com/'
                 target='blank'
                 text='light'
               >
-                Hip Grandpa!
+                Violin Classics
               </Button>
               <Button
                 variant='info'
-                href='https://github.com/Jaliov/hipGrandpa'
+                href='https://github.com/Jaliov/Violin_Classics_History'
               >
                 GitHub
               </Button>
