@@ -55,7 +55,7 @@ const TextContent = [
   </Card.Text>,
 
   <Card.Text>
-    <br />A chronological survey of famous concertos for violin and orchestra with embedded YouTubes of some of the world's greatest violinists, past and present, performing them. The user can click on the title button to see info about the particular piece, or hover over the violinist or composer's name buttons to reveal popover bios of the particular soloist and/or composer. 
+    A chronological survey of famous concertos for violin and orchestra with embedded YouTubes of some of the world's greatest violinists, past and present, performing them. The user can click on the title button to see info about the particular piece, or hover over the violinist or composer's name buttons to reveal popover bios of the particular soloist and/or composer. 
   </Card.Text>,
 
   <Card.Text>
