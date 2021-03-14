@@ -1,5 +1,5 @@
 // eslint-disable-next-line
-import React, { Component } from 'react';
+import React from 'react';
 import CardDisplay from './components/Card';
 import ShowBio from './components/Home';
 import ContactInfo from './components/Contact';
@@ -8,8 +8,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import NavElement from './components/NavBar';
 import './App.css';
 
-class App extends Component {
-  render() {
+const App = () => {
     return (
       <Router basename={`${process.env.PUBLIC_URL}/`}>
         <div>
@@ -22,5 +21,5 @@ class App extends Component {
       </Router>
     );
   }
-}
+
 export default App;

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import JoelImage from "./images/JoelatBarron_2016cropped.jpg";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
@@ -7,7 +7,7 @@ import TextContent from "./TextContent";
 
 function ShowBio() {
   return (
-    <React.Fragment>
+    <Fragment>
       <div className="container mt-3">
         <div className="row">
           <Card>
@@ -29,7 +29,7 @@ function ShowBio() {
           </Card>
         </div>
       </div>
-    </React.Fragment>
+    </Fragment>
   );
 }
 

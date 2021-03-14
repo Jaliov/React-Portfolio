@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { Button, Badge } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
@@ -75,7 +75,7 @@ class ContactInfo extends Component {
     const { name, email, message } = this.props;
 
     return (
-      <React.Fragment>
+      <Fragment>
         <Container>
           <Jumbotron style={{ marginTop: '20px' }}>
             <Badge variant='light'>
@@ -157,7 +157,7 @@ class ContactInfo extends Component {
             </Card.Body>
           </Jumbotron>
         </Container>
-      </React.Fragment>
+      </Fragment>
     );
   }
 }
