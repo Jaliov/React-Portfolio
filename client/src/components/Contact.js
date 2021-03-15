@@ -129,11 +129,7 @@ class ContactInfo extends Component {
                 onClick={this.handleClick}
                 variant='primary'
                 size='sm'
-                style={{
-                  marginTop: '10px',
-                  backgroundColor: 'rgb(137, 224, 220)',
-                  
-                }} className='text-primary' 
+                className='text-light' 
               >
                 Submit
               </Button>

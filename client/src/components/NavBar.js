@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Badge } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const NavElement = () => {
@@ -7,17 +7,9 @@ const NavElement = () => {
     <Navbar bg='light' expand='lg'>
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
       <Navbar.Collapse id='basic-navbar-nav'>
-        <Badge
-          style={{
-            color: 'rgb(137, 224, 220)',
-            fontFamily: 'PT Serif, serif',
-          }}
-        >
-          <Link className='text-light' to='/home'>
-            <h4 style={{ color: 'rgb(137, 224, 220)' }}>Joel Rudin</h4>
+          <Link to='/home'>
+            <h4>Joel Rudin</h4>
           </Link>
-        </Badge>
-
         <Link className='nav-item nav-link active' to='/'>
           Home
         </Link>

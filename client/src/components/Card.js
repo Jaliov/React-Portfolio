@@ -33,7 +33,7 @@ const CardDisplay = () => {
     <Container>
       <Row>
         <Badge variant='transparent' style={{ marginTop: '20px' }}>
-          <h1>Portfolio</h1>
+          <h1 className = "text-light">Portfolio</h1>
         </Badge>
 
         <CardDeck>

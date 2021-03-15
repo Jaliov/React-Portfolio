@@ -10,11 +10,11 @@ function ShowBio() {
     <Fragment>
       <div className="container mt-3">
         <div className="row">
-          <Card style = {{boxShadow: '15px 10px 10px rgb(179, 29, 61, 0.4)'}} bg = 'light'>
+          <Card style = {{boxShadow: '15px 10px 10px rgb(179, 29, 61, 0.4)', marginTop: '10px'}} bg = 'light'>
             <Card.Body>
               <ListGroup variant="flush">
                 <ListGroup.Item>
-                  <h1 className="p-2 font-weight-bold">About Me</h1>
+                  <h1>About Me</h1>
                 </ListGroup.Item>
               </ListGroup>
               <img
