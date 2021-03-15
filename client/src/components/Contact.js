@@ -82,7 +82,7 @@ class ContactInfo extends Component {
               <h1>Contact</h1>
               <div className='App'>
                 <header className='App-header'>
-                  <p className='App-intro text-info'>server running</p>
+                  <p className='App-intro text-white'>server running</p>
                 </header>
               </div>
             </Badge>
