@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
 import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
-// import StoreInput from './Storage';
+import '../App.css';
 import axios from 'axios';
 
 class ContactInfo extends Component {
@@ -77,7 +77,7 @@ class ContactInfo extends Component {
     return (
       <Fragment>
         <Container>
-          <Jumbotron style={{ marginTop: '20px' }}>
+          <Jumbotron style={{ marginTop: '20px', boxShadow: '15px 10px 10px rgb(75, 63, 60, 0.7)', }}>
             <Badge variant='light'>
               <h1>Contact</h1>
               <div className='App'>
@@ -132,7 +132,8 @@ class ContactInfo extends Component {
                 style={{
                   marginTop: '10px',
                   backgroundColor: 'rgb(137, 224, 220)',
-                }}
+                  
+                }} className='text-primary' 
               >
                 Submit
               </Button>

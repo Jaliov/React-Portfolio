@@ -88,7 +88,7 @@ const TextContent = [
       bootcamp. He has a passion for frontend design and is always seeking to
       make the UI more unique and aethetic, as well as user friendly. Besides
       HTML, CSS and JavaScript, he is also proficient React, jQuery, and on the
-      backend Node.js, MySql, Mongo and Mongoose. I have recently added PHP to this list.{' '}
+      backend Node.js, MySql, MongoDB and Mongoose and more recently PHP.{' '}
     </p>
   </React.Fragment>,
 ];

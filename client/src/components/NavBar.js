@@ -9,12 +9,12 @@ const NavElement = () => {
       <Navbar.Collapse id='basic-navbar-nav'>
         <Badge
           style={{
-            backgroundColor: 'rgb(137, 224, 220)',
+            color: 'rgb(137, 224, 220)',
             fontFamily: 'PT Serif, serif',
           }}
         >
           <Link className='text-light' to='/home'>
-            <h4 style={{ color: 'white' }}>Joel Rudin</h4>
+            <h4 style={{ color: 'rgb(137, 224, 220)' }}>Joel Rudin</h4>
           </Link>
         </Badge>
 

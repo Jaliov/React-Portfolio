@@ -24,7 +24,7 @@ import TextContent from './TextContent';
 const CardStyles = {
   marginTop: '20px',
   paddingTop: '20px',
-  boxShadow: '15px 10px 10px rgb(75, 63, 60, 0.7)',
+  boxShadow: '15px 10px 10px rgb(179, 29, 61, 0.4)',
 };
 const CardClasses = 'border border-danger bg-dark text-light';
 
@@ -32,7 +32,7 @@ const CardDisplay = () => {
   return (
     <Container>
       <Row>
-        <Badge variant='light' style={{ marginTop: '20px' }}>
+        <Badge variant='transparent' style={{ marginTop: '20px' }}>
           <h1>Portfolio</h1>
         </Badge>
 

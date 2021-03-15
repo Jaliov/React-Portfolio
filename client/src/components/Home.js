@@ -10,7 +10,7 @@ function ShowBio() {
     <Fragment>
       <div className="container mt-3">
         <div className="row">
-          <Card>
+          <Card style = {{boxShadow: '15px 10px 10px rgb(179, 29, 61, 0.4)'}} bg = 'light'>
             <Card.Body>
               <ListGroup variant="flush">
                 <ListGroup.Item>

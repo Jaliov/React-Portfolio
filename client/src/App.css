@@ -11,9 +11,13 @@ h4 {
 }
 
 body {
-    background-image: url('storefrontsColorizedTextureBluetexture.jpg');
+    background-image: url('storefrontsColorizedTextureBlueNeon.jpg');
 }
 
 Badge {
     margin-top: 40px;
 }
+
+.form-control::-webkit-input-placeholder {
+    font-size: 80%;
+  }
