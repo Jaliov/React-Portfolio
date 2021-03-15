@@ -14,7 +14,7 @@ function ShowBio() {
             <Card.Body>
               <ListGroup variant="flush">
                 <ListGroup.Item>
-                  <h1>About Me</h1>
+                  <h1 className = "text-secondary">About Me</h1>
                 </ListGroup.Item>
               </ListGroup>
               <img

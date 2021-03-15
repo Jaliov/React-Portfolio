@@ -79,7 +79,7 @@ class ContactInfo extends Component {
         <Container>
           <Jumbotron style={{ marginTop: '20px', boxShadow: '15px 10px 10px rgb(75, 63, 60, 0.7)', }}>
             <Badge variant='light'>
-              <h1>Contact</h1>
+              <h1 className = "text-secondary">Contact</h1>
               <div className='App'>
                 <header className='App-header'>
                   <p className='App-intro text-white'>server running</p>

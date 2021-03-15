@@ -8,7 +8,6 @@ import {
   Col,
   ListGroup,
   ListGroupItem,
-  Badge,
 } from 'react-bootstrap';
 import CodeQuizImg from './images/Code_QuizImage.jpg';
 import HmanImage from './images/fanPageImage.jpg';
@@ -31,11 +30,8 @@ const CardClasses = 'border border-danger bg-dark text-light';
 const CardDisplay = () => {
   return (
     <Container>
-      <Row>
-        <Badge variant='transparent' style={{ marginTop: '20px' }}>
-          <h1 className = "text-light">Portfolio</h1>
-        </Badge>
-
+          <h1 className = "text-secondary text-center" style = {{marginTop: '20px'}}>Portfolio</h1>
+          <Row>
         <CardDeck>
           <Card style={CardStyles} className={CardClasses}>
             <Card.Img variant='top' src={CodeQuizImg} />
