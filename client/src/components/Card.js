@@ -279,10 +279,11 @@ const CardDisplay = () => {
                   <ul>
                     <li>HTML</li>
                     <li>CSS</li>
-                    <li>Bootstrap</li>
+                    <li>React</li>
+                    <li>React-Bootstrap</li>
                     <li>JavaScript</li>
-                    <li>lightbox.js</li>
-                    <li>Photoshop</li>
+                    <li>Simple React Lightbox</li>
+                    <li>Gimp</li>
                   </ul>
                 </ListGroup.Item>
                 {/* <ListGroupItem>Links:</ListGroupItem> */}
@@ -291,7 +292,7 @@ const CardDisplay = () => {
             <Card.Body>
               <Button
                 variant='danger'
-                href='https://jaliov.github.io/lisabflamenco/'
+                href='https://lisabflamenco.herokuapp.com/'
                 target='blank'
                 text='light'
               >

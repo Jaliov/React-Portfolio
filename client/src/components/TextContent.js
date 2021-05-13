@@ -39,10 +39,10 @@ const TextContent = [
 
   <Card.Text>
     The website of the great flamenco dancer and singer Lisa Botalico! First
-    created in 2011 the site has been updated over the years and retooled
-    recently based on technologies learned at Rutgers coding bootcamp, 2020. The
-    site includes numerous photos, a bio section, reviews, useful links, and
-    upcoming events. Coming soon: audios and videos! Published on goDaddy.com
+    created in 2011 the site has been updated over the years and twice refactored based on technologies learned at Rutgers coding bootcamp, 2020. Most recently I tansitioned the site from vanilla JavaScript to React!
+    The
+    site includes numerous photos, now displayed in an updated React lightbox, a bio section, reviews, useful links, and
+    the recent addition, as of May, 2021 of a video page!
   </Card.Text>,
 
   <Card.Text>
