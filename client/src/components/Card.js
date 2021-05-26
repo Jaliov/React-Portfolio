@@ -10,7 +10,7 @@ import {
   ListGroupItem,
 } from 'react-bootstrap';
 import CodeQuizImg from './images/Code_QuizImage.jpg';
-import HmanImage from './images/fanPageImage.jpg';
+import VistaImage from './images/Morning Vista 2014smll.jpg';
 import FlipCardsImg from './images/FlipcardsImage.jpg';
 import WeatherAppImg from './images/WeatherAppImage.jpg';
 import ViolinClassicsImg from './images/violin_classics_scrnshot2.jpg';
@@ -362,9 +362,9 @@ const CardDisplay = () => {
 
           <Col md={1}></Col>
           <Card className={CardClasses} style={CardStyles}>
-            <Card.Img variant='top' src={HmanImage} />
+            <Card.Img variant='top' src={VistaImage} />
             <Card.Body>
-              <Card.Title>React Violinist Fan Page!</Card.Title>
+              <Card.Title>Joel Rudin Art</Card.Title>
 
               <React.Fragment> {TextContent[7]} </React.Fragment>
 
@@ -372,10 +372,14 @@ const CardDisplay = () => {
                 <ListGroup.Item variant='dark'>Built with: </ListGroup.Item>
                 <ListGroup.Item variant='light'>
                   <ul>
-                    <li>REACT</li>
-                    <li>Node</li>
-                    <li>JavaScript</li>
+                     <li>HTML</li>
                     <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>Bootstrap</li>
+                    <li>fancyBox Lightbox</li>
+                    <li>Photoshop
+                         </li>
                   </ul>
                 </ListGroup.Item>
                 {/* <ListGroupItem>Links:</ListGroupItem> */}
@@ -384,15 +388,15 @@ const CardDisplay = () => {
             <Card.Body>
               <Button
                 variant='danger'
-                href='https://jaliov.github.io/react-heifetz/'
+                href='https://github.com/Jaliov/JoelRudinArt'
                 target='blank'
                 text='light'
               >
-                Violinist Fan Page
+               Joel Rudin Art
               </Button>
               <Button
                 variant='info'
-                href='https://github.com/Jaliov/react-heifetz'
+                href='https://jaliov.github.io/JoelRudinArt/'
               >
                 GitHub
               </Button>

@@ -59,9 +59,7 @@ const TextContent = [
   </Card.Text>,
 
   <Card.Text>
-    Jascha Heifetz is universally considereed the greatest violinist that ever
-    lived, so I made fan page about him! This is an updated React version of a
-    combo freeCodeCamp project and pre-work assignment for Rutgers bootcamp.
+    This is a reboot of my artist website, first created in 2012! Featured are my imaginary, ethereal landscapes in pastel/mixed media created over the last decade. 
   </Card.Text>,
 
   <Card.Text>
