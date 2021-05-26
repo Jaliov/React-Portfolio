@@ -388,7 +388,7 @@ const CardDisplay = () => {
             <Card.Body>
               <Button
                 variant='danger'
-                href='https://github.com/Jaliov/JoelRudinArt'
+                href= 'https://jaliov.github.io/JoelRudinArt/'
                 target='blank'
                 text='light'
               >
@@ -396,7 +396,7 @@ const CardDisplay = () => {
               </Button>
               <Button
                 variant='info'
-                href='https://jaliov.github.io/JoelRudinArt/'
+                href= 'https://github.com/Jaliov/JoelRudinArt'
               >
                 GitHub
               </Button>
