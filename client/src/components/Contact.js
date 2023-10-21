@@ -1,13 +1,14 @@
 import React, { Component, Fragment } from "react";
 import { Button, Badge } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
-import Jumbotron from "react-bootstrap/Jumbotron";
+//import Jumbotron from "react-bootstrap/Jumbotron";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Card from "react-bootstrap/Card";
+//import CardDeck from "react-bootstrap/CardDeck";
 import Form from "react-bootstrap/Form";
 import Col from "react-bootstrap/Col";
 import "../App.css";
-//import axios from 'axios';
+import axios from "axios";
 
 class ContactInfo extends Component {
   constructor(props) {
@@ -77,7 +78,7 @@ class ContactInfo extends Component {
     return (
       <Fragment>
         <Container>
-          <Jumbotron
+          <div
             style={{
               marginTop: "20px",
               boxShadow: "15px 10px 10px rgb(75, 63, 60, 0.7)",
@@ -157,7 +158,7 @@ class ContactInfo extends Component {
 
               <p className="card-text">609/865-2142</p>
             </Card.Body>
-          </Jumbotron>
+          </div>
         </Container>
       </Fragment>
     );

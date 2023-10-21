@@ -1,7 +1,7 @@
 import React from "react";
+import CardDeck from "react-bootstrap/CardDeck";
 import {
   Card,
-  CardDeck,
   Button,
   Container,
   Row,
