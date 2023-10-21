@@ -6,12 +6,12 @@
   "dependencies": {
     "@types/react": "^16.9.29",
     "axios": "^0.16.2",
-    "bootstrap": "^4.4.1",
+    "bootstrap": "^4.6.2",
     "gh-pages": "^2.2.0",
     "jquery": "^1.9.1",
     "local-storage": "^2.0.0",
     "react": "^16.0.0",
-    "react-bootstrap": "^1.0.0",
+    "react-bootstrap": "^1.6.7",
     "react-dom": "^16.0.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.0.14",
@@ -26,5 +26,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
