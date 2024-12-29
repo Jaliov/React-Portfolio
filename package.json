@@ -28,7 +28,7 @@
     "react-scripts": "^3.0.1"
   },
   "engines": {
-    "node": "18.17.1",
+    "node": "14.0.12",
     "npm": "10.2.1"
   },
   "heroku-run-build-script": true
