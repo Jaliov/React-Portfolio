@@ -1,12 +1,4 @@
 {
-  "homepage": "https://boiling-beyond-86124.herokuapp.com/",
-  "name": "react_portfolio",
-  "version": "1.0.0",
-  "engines": {
-    "node": "18.x",
-    "npm": "10.7.0"
-  },
-  "private": false,
   "dependencies": {
     "@types/react": "^18.2.31",
     "axios": "^1.6.7",
@@ -23,24 +15,5 @@
     "route": "^0.2.5",
     "Router": "^2.1.0",
     "switch": "0.0.0"
-  },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build && (cd ../server && npm install)",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   }
 }
