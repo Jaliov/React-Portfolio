@@ -85,10 +85,10 @@ class ContactInfo extends Component {
             }}
           >
             <Badge variant="light">
-              <h1 className="text-secondary">Contact</h1>
+              <h1 className="text-secondary">Contact Me</h1>
               <div className="App">
                 <header className="App-header">
-                  <p className="App-intro text-white">server running</p>
+                  <p className="App-intro text-white">server is now running</p>
                 </header>
               </div>
             </Badge>
