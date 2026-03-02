@@ -14,6 +14,7 @@ var logger = require('morgan');
 
 const testAPIRouter = require('./routes/testAPI');
 
+
 app.use(express.json());
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));
@@ -35,18 +36,18 @@ if (process.env.NODE_ENV === 'production') {
 //process.env.MONGODB_URI;
 
 mongoose.Promise = global.Promise;
-mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/Portfolio',
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  },
-  (err, client) => {
-    if (err) return console.error(err);
-    console.log('Connected to Database');
+// mongoose.connect(
+//   process.env.MONGODB_URI || 'mongodb://localhost/Portfolio',
+const connectToMongo = async () => {
+  try {
+    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/Portfolio');
+    console.log('Connected to MongoDB');
+  } catch (error) {
+    console.error('Error connecting to MongoDB:', error);
   }
-);
+};
 
+connectToMongo();
 mongoose.connection.on('connected', () => {
   console.log('MongDB is connected!!!');
 });
